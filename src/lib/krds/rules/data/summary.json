@@ -1,0 +1,84 @@
+{
+  "taxonomy": "RADIUS",
+  "generatedAt": "2026-08-21T04:25:18.391Z",
+  "mcpPath": "/Users/mini/src/ai-website-cloner-template/node_modules/@krds-mcp/krds-mcp/data/index.js",
+  "principle": "RADIUS keys 1:1 — D/I/U=KRDS-MCP; R/A/S=KLIC ext",
+  "keyMap": {
+    "R": "kq_r",
+    "A": "kq_a",
+    "D": "kq_d",
+    "I": "kq_i",
+    "U": "kq_u",
+    "S": "kq_s"
+  },
+  "severity": "content-map (no index modulo)",
+  "dropped": [
+    "legacy-846 count",
+    "kq_v/kq_f mismatch",
+    "index-based severity"
+  ],
+  "counts": {
+    "kq_d": 66,
+    "kq_i": 138,
+    "kq_u": 21,
+    "kq_a": 134,
+    "kq_s": 80,
+    "kq_r": 90,
+    "mcpOfficial": 225,
+    "klicExt": 304,
+    "total": 529
+  },
+  "tokenCoverage": {
+    "groups": 15,
+    "leaves": 637,
+    "note": "D-axis: one rule per token group; leaf count is inventory"
+  },
+  "axes": {
+    "kq_r": {
+      "axisCode": "R",
+      "label": "Responsive",
+      "source": "klic-ext",
+      "weight": 0.1
+    },
+    "kq_a": {
+      "axisCode": "A",
+      "label": "Accessibility",
+      "source": "klic-ext",
+      "weight": 0.25
+    },
+    "kq_d": {
+      "axisCode": "D",
+      "label": "Design",
+      "source": "krds-mcp",
+      "weight": 0.15
+    },
+    "kq_i": {
+      "axisCode": "I",
+      "label": "Interface",
+      "source": "krds-mcp",
+      "weight": 0.15
+    },
+    "kq_u": {
+      "axisCode": "U",
+      "label": "User flow",
+      "source": "krds-mcp",
+      "weight": 0.2
+    },
+    "kq_s": {
+      "axisCode": "S",
+      "label": "Security",
+      "source": "klic-ext",
+      "weight": 0.15
+    }
+  },
+  "mcpInventory": {
+    "principles": 7,
+    "colors": 24,
+    "typography": 20,
+    "components": 46,
+    "globalPatterns": 11,
+    "servicePatterns": 5,
+    "tokenGroups": 15,
+    "tokenLeaves": 637
+  }
+}

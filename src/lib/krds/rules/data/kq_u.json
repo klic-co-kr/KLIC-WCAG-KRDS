@@ -1,0 +1,495 @@
+[
+  {
+    "id": "kq_u_gp_개인정보_확인_personal_identification_information",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "개인정보 확인 (Personal Identification Information)",
+    "code": "U-GP-01",
+    "title": "글로벌 패턴: 개인정보 확인 (Personal Identification Information)",
+    "description": "개인의 신원을 확인하는 패턴",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "personal-identification",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_도움말_help",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "도움말 (Help)",
+    "code": "U-GP-02",
+    "title": "글로벌 패턴: 도움말 (Help)",
+    "description": "서비스 사용 방법에 대한 안내 제공",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "help",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_동의_consent",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "동의 (Consent)",
+    "code": "U-GP-03",
+    "title": "글로벌 패턴: 동의 (Consent)",
+    "description": "사용자의 동의를 받는 패턴",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "consent",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_목록_탐색_list_navigation",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "목록 탐색 (List Navigation)",
+    "code": "U-GP-04",
+    "title": "글로벌 패턴: 목록 탐색 (List Navigation)",
+    "description": "목록 형태의 정보를 탐색하는 패턴",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "list-navigation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_사용자_피드백_user_feedback",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "사용자 피드백 (User Feedback)",
+    "code": "U-GP-05",
+    "title": "글로벌 패턴: 사용자 피드백 (User Feedback)",
+    "description": "사용자 의견 및 경험 수집",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "user-feedback",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_상세_정보_detailed_information",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "상세 정보 (Detailed Information)",
+    "code": "U-GP-06",
+    "title": "글로벌 패턴: 상세 정보 (Detailed Information)",
+    "description": "포괄적인 콘텐츠 제공",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "detailed-information",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_오류_처리_error_handling",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "오류 처리 (Error Handling)",
+    "code": "U-GP-07",
+    "title": "글로벌 패턴: 오류 처리 (Error Handling)",
+    "description": "시스템 오류 및 사용자 실수 처리",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "error-handling",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_입력_양식_input_forms",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "입력 양식 (Input Forms)",
+    "code": "U-GP-08",
+    "title": "글로벌 패턴: 입력 양식 (Input Forms)",
+    "description": "사용자 데이터 수집 및 전송",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "input-forms",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_파일_첨부_file_attachments",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "파일 첨부 (File Attachments)",
+    "code": "U-GP-09",
+    "title": "글로벌 패턴: 파일 첨부 (File Attachments)",
+    "description": "다운로드 가능한 콘텐츠 제공",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "file-attachments",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_필터링_및_정렬_filtering_and_sorting",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "필터링 및 정렬 (Filtering and Sorting)",
+    "code": "U-GP-10",
+    "title": "글로벌 패턴: 필터링 및 정렬 (Filtering and Sorting)",
+    "description": "데이터 탐색 및 정제",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "filtering-sorting",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_gp_확인_confirmation",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "글로벌 패턴",
+    "subcategory": "확인 (Confirmation)",
+    "code": "U-GP-11",
+    "title": "글로벌 패턴: 확인 (Confirmation)",
+    "description": "중요한 작업에 대한 사용자 확인",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "global-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "confirmation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_방문_visit_0",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "방문 (Visit)",
+    "code": "U-SP-01-1",
+    "title": "방문 (Visit) · 흐름 완결",
+    "description": "시작→완료까지 단계·피드백·이탈 경로가 완전한지 (KRDS 서비스 패턴: 방문 (Visit))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-HOME",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "visit",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_방문_visit_1",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "방문 (Visit)",
+    "code": "U-SP-01-2",
+    "title": "방문 (Visit) · 오류·예외",
+    "description": "검증 실패·중단·재시도 UX가 안내되는지 (KRDS 서비스 패턴: 방문 (Visit))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-HOME",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "visit",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_검색_search_0",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "검색 (Search)",
+    "code": "U-SP-02-1",
+    "title": "검색 (Search) · 흐름 완결",
+    "description": "시작→완료까지 단계·피드백·이탈 경로가 완전한지 (KRDS 서비스 패턴: 검색 (Search))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-FIND",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "search",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_검색_search_1",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "검색 (Search)",
+    "code": "U-SP-02-2",
+    "title": "검색 (Search) · 오류·예외",
+    "description": "검증 실패·중단·재시도 UX가 안내되는지 (KRDS 서비스 패턴: 검색 (Search))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-FIND",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "search",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_로그인_login_0",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "로그인 (Login)",
+    "code": "U-SP-03-1",
+    "title": "로그인 (Login) · 흐름 완결",
+    "description": "시작→완료까지 단계·피드백·이탈 경로가 완전한지 (KRDS 서비스 패턴: 로그인 (Login))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-AUTH",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "login",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_로그인_login_1",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "로그인 (Login)",
+    "code": "U-SP-03-2",
+    "title": "로그인 (Login) · 오류·예외",
+    "description": "검증 실패·중단·재시도 UX가 안내되는지 (KRDS 서비스 패턴: 로그인 (Login))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-AUTH",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "login",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_신청_application_0",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "신청 (Application)",
+    "code": "U-SP-04-1",
+    "title": "신청 (Application) · 흐름 완결",
+    "description": "시작→완료까지 단계·피드백·이탈 경로가 완전한지 (KRDS 서비스 패턴: 신청 (Application))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-APPLY",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "application",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_신청_application_1",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "신청 (Application)",
+    "code": "U-SP-04-2",
+    "title": "신청 (Application) · 오류·예외",
+    "description": "검증 실패·중단·재시도 UX가 안내되는지 (KRDS 서비스 패턴: 신청 (Application))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-APPLY",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "application",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_정책정보_확인_policy_information_verification_0",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "정책정보 확인 (Policy Information Verification)",
+    "code": "U-SP-05-1",
+    "title": "정책정보 확인 (Policy Information Verification) · 흐름 완결",
+    "description": "시작→완료까지 단계·피드백·이탈 경로가 완전한지 (KRDS 서비스 패턴: 정책정보 확인 (Policy Information Verification))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-INFO",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "policy-verification",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_u_sp_정책정보_확인_policy_information_verification_1",
+    "domain": "kq_u",
+    "axisCode": "U",
+    "category": "서비스 패턴",
+    "subcategory": "정책정보 확인 (Policy Information Verification)",
+    "code": "U-SP-05-2",
+    "title": "정책정보 확인 (Policy Information Verification) · 오류·예외",
+    "description": "검증 실패·중단·재시도 UX가 안내되는지 (KRDS 서비스 패턴: 정책정보 확인 (Policy Information Verification))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "service-pattern",
+      "krds-mcp",
+      "kq-u"
+    ],
+    "scenes": [
+      "SC-INFO",
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "policy-verification",
+    "viewport": "all"
+  }
+]

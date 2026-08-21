@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-label="KLIC KRDS">
+  <rect width="64" height="64" rx="14" fill="#256EF4"/>
+  <path d="M18 18h8.2v11.2L36.8 18H46l-12.4 13.2L46.4 46H36.6L26.2 33.4V46H18V18z" fill="#fff"/>
+  <rect x="40" y="40" width="10" height="10" rx="2" fill="#93C5FD"/>
+</svg>

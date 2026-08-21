@@ -1,0 +1,3620 @@
+[
+  {
+    "id": "kq_a_001_kwcag_1_1_001",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-001",
+    "title": "대체 텍스트 규칙 #1",
+    "description": "대체 텍스트 규칙 #1 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-001)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_001",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_002_kwcag_1_3_002",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-002",
+    "title": "구조·의미 적응 규칙 #2",
+    "description": "구조·의미 적응 규칙 #2 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-002)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_002",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_003_kwcag_1_4_003",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-003",
+    "title": "명도 대비·시각 규칙 #3",
+    "description": "명도 대비·시각 규칙 #3 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-003)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_003",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_004_kwcag_2_1_004",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-004",
+    "title": "키보드 접근 규칙 #4",
+    "description": "키보드 접근 규칙 #4 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-004)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_004",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_005_kwcag_2_4_005",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-005",
+    "title": "포커스·건너뛰기·제목 규칙 #5",
+    "description": "포커스·건너뛰기·제목 규칙 #5 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-005)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_005",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_006_kwcag_3_1_006",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-006",
+    "title": "언어·가독성 규칙 #6",
+    "description": "언어·가독성 규칙 #6 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-006)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_006",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_007_kwcag_3_2_007",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-007",
+    "title": "예측 가능한 동작 규칙 #7",
+    "description": "예측 가능한 동작 규칙 #7 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-007)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_007",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_008_kwcag_3_3_008",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-008",
+    "title": "입력 지원·오류 규칙 #8",
+    "description": "입력 지원·오류 규칙 #8 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-008)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_008",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_009_kwcag_4_1_009",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-009",
+    "title": "호환·ARIA 규칙 #9",
+    "description": "호환·ARIA 규칙 #9 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-009)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_009",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_010_kwcag_btn_a11y_010",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-010",
+    "title": "버튼 접근성 규칙 #10",
+    "description": "버튼 접근성 규칙 #10 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-010)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_010",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_011_kwcag_link_a11y_011",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-011",
+    "title": "링크 텍스트 규칙 #11",
+    "description": "링크 텍스트 규칙 #11 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-011)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_011",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_012_kwcag_skip_012",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-012",
+    "title": "건너뛰기 링크 규칙 #12",
+    "description": "건너뛰기 링크 규칙 #12 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-012)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_012",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_013_kwcag_1_1_013",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-013",
+    "title": "대체 텍스트 규칙 #13",
+    "description": "대체 텍스트 규칙 #13 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-013)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_013",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_014_kwcag_1_3_014",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-014",
+    "title": "구조·의미 적응 규칙 #14",
+    "description": "구조·의미 적응 규칙 #14 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-014)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_014",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_015_kwcag_1_4_015",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-015",
+    "title": "명도 대비·시각 규칙 #15",
+    "description": "명도 대비·시각 규칙 #15 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-015)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_015",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_016_kwcag_2_1_016",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-016",
+    "title": "키보드 접근 규칙 #16",
+    "description": "키보드 접근 규칙 #16 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-016)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_016",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_017_kwcag_2_4_017",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-017",
+    "title": "포커스·건너뛰기·제목 규칙 #17",
+    "description": "포커스·건너뛰기·제목 규칙 #17 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-017)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_017",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_018_kwcag_3_1_018",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-018",
+    "title": "언어·가독성 규칙 #18",
+    "description": "언어·가독성 규칙 #18 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-018)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_018",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_019_kwcag_3_2_019",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-019",
+    "title": "예측 가능한 동작 규칙 #19",
+    "description": "예측 가능한 동작 규칙 #19 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-019)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_019",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_020_kwcag_3_3_020",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-020",
+    "title": "입력 지원·오류 규칙 #20",
+    "description": "입력 지원·오류 규칙 #20 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-020)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_020",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_021_kwcag_4_1_021",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-021",
+    "title": "호환·ARIA 규칙 #21",
+    "description": "호환·ARIA 규칙 #21 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-021)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_021",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_022_kwcag_btn_a11y_022",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-022",
+    "title": "버튼 접근성 규칙 #22",
+    "description": "버튼 접근성 규칙 #22 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-022)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_022",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_023_kwcag_link_a11y_023",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-023",
+    "title": "링크 텍스트 규칙 #23",
+    "description": "링크 텍스트 규칙 #23 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-023)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_023",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_024_kwcag_skip_024",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-024",
+    "title": "건너뛰기 링크 규칙 #24",
+    "description": "건너뛰기 링크 규칙 #24 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-024)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_024",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_025_kwcag_1_1_025",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-025",
+    "title": "대체 텍스트 규칙 #25",
+    "description": "대체 텍스트 규칙 #25 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-025)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_025",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_026_kwcag_1_3_026",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-026",
+    "title": "구조·의미 적응 규칙 #26",
+    "description": "구조·의미 적응 규칙 #26 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-026)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_026",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_027_kwcag_1_4_027",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-027",
+    "title": "명도 대비·시각 규칙 #27",
+    "description": "명도 대비·시각 규칙 #27 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-027)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_027",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_028_kwcag_2_1_028",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-028",
+    "title": "키보드 접근 규칙 #28",
+    "description": "키보드 접근 규칙 #28 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-028)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_028",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_029_kwcag_2_4_029",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-029",
+    "title": "포커스·건너뛰기·제목 규칙 #29",
+    "description": "포커스·건너뛰기·제목 규칙 #29 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-029)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_029",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_030_kwcag_3_1_030",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-030",
+    "title": "언어·가독성 규칙 #30",
+    "description": "언어·가독성 규칙 #30 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-030)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_030",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_031_kwcag_3_2_031",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-031",
+    "title": "예측 가능한 동작 규칙 #31",
+    "description": "예측 가능한 동작 규칙 #31 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-031)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_031",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_032_kwcag_3_3_032",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-032",
+    "title": "입력 지원·오류 규칙 #32",
+    "description": "입력 지원·오류 규칙 #32 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-032)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_032",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_033_kwcag_4_1_033",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-033",
+    "title": "호환·ARIA 규칙 #33",
+    "description": "호환·ARIA 규칙 #33 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-033)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_033",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_034_kwcag_btn_a11y_034",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-034",
+    "title": "버튼 접근성 규칙 #34",
+    "description": "버튼 접근성 규칙 #34 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-034)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_034",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_035_kwcag_link_a11y_035",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-035",
+    "title": "링크 텍스트 규칙 #35",
+    "description": "링크 텍스트 규칙 #35 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-035)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_035",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_036_kwcag_skip_036",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-036",
+    "title": "건너뛰기 링크 규칙 #36",
+    "description": "건너뛰기 링크 규칙 #36 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-036)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_036",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_037_kwcag_1_1_037",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-037",
+    "title": "대체 텍스트 규칙 #37",
+    "description": "대체 텍스트 규칙 #37 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-037)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_037",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_038_kwcag_1_3_038",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-038",
+    "title": "구조·의미 적응 규칙 #38",
+    "description": "구조·의미 적응 규칙 #38 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-038)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_038",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_039_kwcag_1_4_039",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-039",
+    "title": "명도 대비·시각 규칙 #39",
+    "description": "명도 대비·시각 규칙 #39 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-039)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_039",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_040_kwcag_2_1_040",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-040",
+    "title": "키보드 접근 규칙 #40",
+    "description": "키보드 접근 규칙 #40 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-040)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_040",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_041_kwcag_2_4_041",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-041",
+    "title": "포커스·건너뛰기·제목 규칙 #41",
+    "description": "포커스·건너뛰기·제목 규칙 #41 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-041)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_041",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_042_kwcag_3_1_042",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-042",
+    "title": "언어·가독성 규칙 #42",
+    "description": "언어·가독성 규칙 #42 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-042)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_042",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_043_kwcag_3_2_043",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-043",
+    "title": "예측 가능한 동작 규칙 #43",
+    "description": "예측 가능한 동작 규칙 #43 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-043)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_043",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_044_kwcag_3_3_044",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-044",
+    "title": "입력 지원·오류 규칙 #44",
+    "description": "입력 지원·오류 규칙 #44 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-044)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_044",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_045_kwcag_4_1_045",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-045",
+    "title": "호환·ARIA 규칙 #45",
+    "description": "호환·ARIA 규칙 #45 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-045)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_045",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_046_kwcag_btn_a11y_046",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-046",
+    "title": "버튼 접근성 규칙 #46",
+    "description": "버튼 접근성 규칙 #46 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-046)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_046",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_047_kwcag_link_a11y_047",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-047",
+    "title": "링크 텍스트 규칙 #47",
+    "description": "링크 텍스트 규칙 #47 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-047)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_047",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_048_kwcag_skip_048",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-048",
+    "title": "건너뛰기 링크 규칙 #48",
+    "description": "건너뛰기 링크 규칙 #48 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-048)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_048",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_049_kwcag_1_1_049",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-049",
+    "title": "대체 텍스트 규칙 #49",
+    "description": "대체 텍스트 규칙 #49 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-049)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_049",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_050_kwcag_1_3_050",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-050",
+    "title": "구조·의미 적응 규칙 #50",
+    "description": "구조·의미 적응 규칙 #50 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-050)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_050",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_051_kwcag_1_4_051",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-051",
+    "title": "명도 대비·시각 규칙 #51",
+    "description": "명도 대비·시각 규칙 #51 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-051)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_051",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_052_kwcag_2_1_052",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-052",
+    "title": "키보드 접근 규칙 #52",
+    "description": "키보드 접근 규칙 #52 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-052)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_052",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_053_kwcag_2_4_053",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-053",
+    "title": "포커스·건너뛰기·제목 규칙 #53",
+    "description": "포커스·건너뛰기·제목 규칙 #53 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-053)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_053",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_054_kwcag_3_1_054",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-054",
+    "title": "언어·가독성 규칙 #54",
+    "description": "언어·가독성 규칙 #54 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-054)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_054",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_055_kwcag_3_2_055",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-055",
+    "title": "예측 가능한 동작 규칙 #55",
+    "description": "예측 가능한 동작 규칙 #55 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-055)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_055",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_056_kwcag_3_3_056",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-056",
+    "title": "입력 지원·오류 규칙 #56",
+    "description": "입력 지원·오류 규칙 #56 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-056)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_056",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_057_kwcag_4_1_057",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-057",
+    "title": "호환·ARIA 규칙 #57",
+    "description": "호환·ARIA 규칙 #57 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-057)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_057",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_058_kwcag_btn_a11y_058",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-058",
+    "title": "버튼 접근성 규칙 #58",
+    "description": "버튼 접근성 규칙 #58 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-058)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_058",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_059_kwcag_link_a11y_059",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-059",
+    "title": "링크 텍스트 규칙 #59",
+    "description": "링크 텍스트 규칙 #59 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-059)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_059",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_060_kwcag_skip_060",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-060",
+    "title": "건너뛰기 링크 규칙 #60",
+    "description": "건너뛰기 링크 규칙 #60 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-060)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_060",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_061_kwcag_1_1_061",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-061",
+    "title": "대체 텍스트 규칙 #61",
+    "description": "대체 텍스트 규칙 #61 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-061)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_061",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_062_kwcag_1_3_062",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-062",
+    "title": "구조·의미 적응 규칙 #62",
+    "description": "구조·의미 적응 규칙 #62 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-062)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_062",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_063_kwcag_1_4_063",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-063",
+    "title": "명도 대비·시각 규칙 #63",
+    "description": "명도 대비·시각 규칙 #63 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-063)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_063",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_064_kwcag_2_1_064",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-064",
+    "title": "키보드 접근 규칙 #64",
+    "description": "키보드 접근 규칙 #64 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-064)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_064",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_065_kwcag_2_4_065",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-065",
+    "title": "포커스·건너뛰기·제목 규칙 #65",
+    "description": "포커스·건너뛰기·제목 규칙 #65 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-065)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_065",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_066_kwcag_3_1_066",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-066",
+    "title": "언어·가독성 규칙 #66",
+    "description": "언어·가독성 규칙 #66 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-066)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_066",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_067_kwcag_3_2_067",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-067",
+    "title": "예측 가능한 동작 규칙 #67",
+    "description": "예측 가능한 동작 규칙 #67 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-067)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_067",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_068_kwcag_3_3_068",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-068",
+    "title": "입력 지원·오류 규칙 #68",
+    "description": "입력 지원·오류 규칙 #68 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-068)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_068",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_069_kwcag_4_1_069",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-069",
+    "title": "호환·ARIA 규칙 #69",
+    "description": "호환·ARIA 규칙 #69 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-069)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_069",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_070_kwcag_btn_a11y_070",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-070",
+    "title": "버튼 접근성 규칙 #70",
+    "description": "버튼 접근성 규칙 #70 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-070)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_070",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_071_kwcag_link_a11y_071",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-071",
+    "title": "링크 텍스트 규칙 #71",
+    "description": "링크 텍스트 규칙 #71 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-071)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_071",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_072_kwcag_skip_072",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-072",
+    "title": "건너뛰기 링크 규칙 #72",
+    "description": "건너뛰기 링크 규칙 #72 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-072)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_072",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_073_kwcag_1_1_073",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-073",
+    "title": "대체 텍스트 규칙 #73",
+    "description": "대체 텍스트 규칙 #73 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-073)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_073",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_074_kwcag_1_3_074",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-074",
+    "title": "구조·의미 적응 규칙 #74",
+    "description": "구조·의미 적응 규칙 #74 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-074)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_074",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_075_kwcag_1_4_075",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-075",
+    "title": "명도 대비·시각 규칙 #75",
+    "description": "명도 대비·시각 규칙 #75 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-075)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_075",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_076_kwcag_2_1_076",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-076",
+    "title": "키보드 접근 규칙 #76",
+    "description": "키보드 접근 규칙 #76 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-076)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_076",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_077_kwcag_2_4_077",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-077",
+    "title": "포커스·건너뛰기·제목 규칙 #77",
+    "description": "포커스·건너뛰기·제목 규칙 #77 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-077)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_077",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_078_kwcag_3_1_078",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-078",
+    "title": "언어·가독성 규칙 #78",
+    "description": "언어·가독성 규칙 #78 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-078)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_078",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_079_kwcag_3_2_079",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-079",
+    "title": "예측 가능한 동작 규칙 #79",
+    "description": "예측 가능한 동작 규칙 #79 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-079)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_079",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_080_kwcag_3_3_080",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-080",
+    "title": "입력 지원·오류 규칙 #80",
+    "description": "입력 지원·오류 규칙 #80 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-080)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_080",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_081_kwcag_4_1_081",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-081",
+    "title": "호환·ARIA 규칙 #81",
+    "description": "호환·ARIA 규칙 #81 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-081)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_081",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_082_kwcag_btn_a11y_082",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-082",
+    "title": "버튼 접근성 규칙 #82",
+    "description": "버튼 접근성 규칙 #82 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-082)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_082",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_083_kwcag_link_a11y_083",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-083",
+    "title": "링크 텍스트 규칙 #83",
+    "description": "링크 텍스트 규칙 #83 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-083)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_083",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_084_kwcag_skip_084",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-084",
+    "title": "건너뛰기 링크 규칙 #84",
+    "description": "건너뛰기 링크 규칙 #84 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-084)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_084",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_085_kwcag_1_1_085",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-085",
+    "title": "대체 텍스트 규칙 #85",
+    "description": "대체 텍스트 규칙 #85 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-085)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_085",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_086_kwcag_1_3_086",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-086",
+    "title": "구조·의미 적응 규칙 #86",
+    "description": "구조·의미 적응 규칙 #86 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-086)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_086",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_087_kwcag_1_4_087",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-087",
+    "title": "명도 대비·시각 규칙 #87",
+    "description": "명도 대비·시각 규칙 #87 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-087)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_087",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_088_kwcag_2_1_088",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-088",
+    "title": "키보드 접근 규칙 #88",
+    "description": "키보드 접근 규칙 #88 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-088)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_088",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_089_kwcag_2_4_089",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-089",
+    "title": "포커스·건너뛰기·제목 규칙 #89",
+    "description": "포커스·건너뛰기·제목 규칙 #89 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-089)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_089",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_090_kwcag_3_1_090",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-090",
+    "title": "언어·가독성 규칙 #90",
+    "description": "언어·가독성 규칙 #90 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-090)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_090",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_091_kwcag_3_2_091",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-091",
+    "title": "예측 가능한 동작 규칙 #91",
+    "description": "예측 가능한 동작 규칙 #91 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-091)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_091",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_092_kwcag_3_3_092",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-092",
+    "title": "입력 지원·오류 규칙 #92",
+    "description": "입력 지원·오류 규칙 #92 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-092)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_092",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_093_kwcag_4_1_093",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-093",
+    "title": "호환·ARIA 규칙 #93",
+    "description": "호환·ARIA 규칙 #93 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-093)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_093",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_094_kwcag_btn_a11y_094",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-094",
+    "title": "버튼 접근성 규칙 #94",
+    "description": "버튼 접근성 규칙 #94 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-094)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_094",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_095_kwcag_link_a11y_095",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-095",
+    "title": "링크 텍스트 규칙 #95",
+    "description": "링크 텍스트 규칙 #95 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-095)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_095",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_096_kwcag_skip_096",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-096",
+    "title": "건너뛰기 링크 규칙 #96",
+    "description": "건너뛰기 링크 규칙 #96 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-096)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_096",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_097_kwcag_1_1_097",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-097",
+    "title": "대체 텍스트 규칙 #97",
+    "description": "대체 텍스트 규칙 #97 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-097)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_097",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_098_kwcag_1_3_098",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-098",
+    "title": "구조·의미 적응 규칙 #98",
+    "description": "구조·의미 적응 규칙 #98 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-098)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_098",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_099_kwcag_1_4_099",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-099",
+    "title": "명도 대비·시각 규칙 #99",
+    "description": "명도 대비·시각 규칙 #99 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-099)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_099",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_100_kwcag_2_1_100",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-100",
+    "title": "키보드 접근 규칙 #100",
+    "description": "키보드 접근 규칙 #100 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-100)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_100",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_101_kwcag_2_4_101",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-101",
+    "title": "포커스·건너뛰기·제목 규칙 #101",
+    "description": "포커스·건너뛰기·제목 규칙 #101 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-101)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_101",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_102_kwcag_3_1_102",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-102",
+    "title": "언어·가독성 규칙 #102",
+    "description": "언어·가독성 규칙 #102 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-102)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_102",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_103_kwcag_3_2_103",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-103",
+    "title": "예측 가능한 동작 규칙 #103",
+    "description": "예측 가능한 동작 규칙 #103 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-103)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_103",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_104_kwcag_3_3_104",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-104",
+    "title": "입력 지원·오류 규칙 #104",
+    "description": "입력 지원·오류 규칙 #104 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-104)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_104",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_105_kwcag_4_1_105",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-105",
+    "title": "호환·ARIA 규칙 #105",
+    "description": "호환·ARIA 규칙 #105 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-105)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_105",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_106_kwcag_btn_a11y_106",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-106",
+    "title": "버튼 접근성 규칙 #106",
+    "description": "버튼 접근성 규칙 #106 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-106)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_106",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_107_kwcag_link_a11y_107",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-107",
+    "title": "링크 텍스트 규칙 #107",
+    "description": "링크 텍스트 규칙 #107 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-107)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_107",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_108_kwcag_skip_108",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-108",
+    "title": "건너뛰기 링크 규칙 #108",
+    "description": "건너뛰기 링크 규칙 #108 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-108)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_108",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_109_kwcag_1_1_109",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-109",
+    "title": "대체 텍스트 규칙 #109",
+    "description": "대체 텍스트 규칙 #109 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-109)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_109",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_110_kwcag_1_3_110",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-110",
+    "title": "구조·의미 적응 규칙 #110",
+    "description": "구조·의미 적응 규칙 #110 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-110)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_110",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_111_kwcag_1_4_111",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-111",
+    "title": "명도 대비·시각 규칙 #111",
+    "description": "명도 대비·시각 규칙 #111 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-111)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_111",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_112_kwcag_2_1_112",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-112",
+    "title": "키보드 접근 규칙 #112",
+    "description": "키보드 접근 규칙 #112 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-112)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_112",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_113_kwcag_2_4_113",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-113",
+    "title": "포커스·건너뛰기·제목 규칙 #113",
+    "description": "포커스·건너뛰기·제목 규칙 #113 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-113)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_113",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_114_kwcag_3_1_114",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-114",
+    "title": "언어·가독성 규칙 #114",
+    "description": "언어·가독성 규칙 #114 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-114)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_114",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_115_kwcag_3_2_115",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-115",
+    "title": "예측 가능한 동작 규칙 #115",
+    "description": "예측 가능한 동작 규칙 #115 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-115)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_115",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_116_kwcag_3_3_116",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-116",
+    "title": "입력 지원·오류 규칙 #116",
+    "description": "입력 지원·오류 규칙 #116 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-116)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_116",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_117_kwcag_4_1_117",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-117",
+    "title": "호환·ARIA 규칙 #117",
+    "description": "호환·ARIA 규칙 #117 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-117)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_117",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_118_kwcag_btn_a11y_118",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-118",
+    "title": "버튼 접근성 규칙 #118",
+    "description": "버튼 접근성 규칙 #118 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-118)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_118",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_119_kwcag_link_a11y_119",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-119",
+    "title": "링크 텍스트 규칙 #119",
+    "description": "링크 텍스트 규칙 #119 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-119)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_119",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_120_kwcag_skip_120",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-120",
+    "title": "건너뛰기 링크 규칙 #120",
+    "description": "건너뛰기 링크 규칙 #120 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-120)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_120",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_121_kwcag_1_1_121",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-121",
+    "title": "대체 텍스트 규칙 #121",
+    "description": "대체 텍스트 규칙 #121 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-121)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_121",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_122_kwcag_1_3_122",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-122",
+    "title": "구조·의미 적응 규칙 #122",
+    "description": "구조·의미 적응 규칙 #122 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-122)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_122",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_123_kwcag_1_4_123",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "명도 대비",
+    "code": "A-123",
+    "title": "명도 대비·시각 규칙 #123",
+    "description": "명도 대비·시각 규칙 #123 — 웹접근성/명도 대비 기준 준수 여부를 확인합니다. (A-123)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "contrast",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_4_123",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_124_kwcag_2_1_124",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "키보드 접근성",
+    "code": "A-124",
+    "title": "키보드 접근 규칙 #124",
+    "description": "키보드 접근 규칙 #124 — 웹접근성/키보드 접근성 기준 준수 여부를 확인합니다. (A-124)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "keyboard",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_1_124",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_125_kwcag_2_4_125",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "포커스·탐색",
+    "code": "A-125",
+    "title": "포커스·건너뛰기·제목 규칙 #125",
+    "description": "포커스·건너뛰기·제목 규칙 #125 — 웹접근성/포커스·탐색 기준 준수 여부를 확인합니다. (A-125)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "operable",
+      "navigation",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_2_4_125",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_126_kwcag_3_1_126",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "언어 속성",
+    "code": "A-126",
+    "title": "언어·가독성 규칙 #126",
+    "description": "언어·가독성 규칙 #126 — 웹접근성/언어 속성 기준 준수 여부를 확인합니다. (A-126)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "language",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_1_126",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_127_kwcag_3_2_127",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "예측 가능",
+    "code": "A-127",
+    "title": "예측 가능한 동작 규칙 #127",
+    "description": "예측 가능한 동작 규칙 #127 — 웹접근성/예측 가능 기준 준수 여부를 확인합니다. (A-127)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "understandable",
+      "predictable",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_2_127",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_128_kwcag_3_3_128",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "폼 라벨",
+    "code": "A-128",
+    "title": "입력 지원·오류 규칙 #128",
+    "description": "입력 지원·오류 규칙 #128 — 웹접근성/폼 라벨 기준 준수 여부를 확인합니다. (A-128)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "understandable",
+      "input",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_3_3_128",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_129_kwcag_4_1_129",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "ARIA 속성",
+    "code": "A-129",
+    "title": "호환·ARIA 규칙 #129",
+    "description": "호환·ARIA 규칙 #129 — 웹접근성/ARIA 속성 기준 준수 여부를 확인합니다. (A-129)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "robust",
+      "aria",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_4_1_129",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_130_kwcag_btn_a11y_130",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "버튼 접근성",
+    "code": "A-130",
+    "title": "버튼 접근성 규칙 #130",
+    "description": "버튼 접근성 규칙 #130 — 웹접근성/버튼 접근성 기준 준수 여부를 확인합니다. (A-130)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "button",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_btn_a11y_130",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_131_kwcag_link_a11y_131",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "링크 텍스트",
+    "code": "A-131",
+    "title": "링크 텍스트 규칙 #131",
+    "description": "링크 텍스트 규칙 #131 — 웹접근성/링크 텍스트 기준 준수 여부를 확인합니다. (A-131)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "operable",
+      "link",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_link_a11y_131",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_132_kwcag_skip_132",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "건너뛰기 링크",
+    "code": "A-132",
+    "title": "건너뛰기 링크 규칙 #132",
+    "description": "건너뛰기 링크 규칙 #132 — 웹접근성/건너뛰기 링크 기준 준수 여부를 확인합니다. (A-132)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "operable",
+      "skip",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_skip_132",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_133_kwcag_1_1_133",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "대체 텍스트",
+    "code": "A-133",
+    "title": "대체 텍스트 규칙 #133",
+    "description": "대체 텍스트 규칙 #133 — 웹접근성/대체 텍스트 기준 준수 여부를 확인합니다. (A-133)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "perceivable",
+      "text-alt",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_1_133",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_a_134_kwcag_1_3_134",
+    "domain": "kq_a",
+    "axisCode": "A",
+    "category": "웹접근성",
+    "subcategory": "적응 가능",
+    "code": "A-134",
+    "title": "구조·의미 적응 규칙 #134",
+    "description": "구조·의미 적응 규칙 #134 — 웹접근성/적응 가능 기준 준수 여부를 확인합니다. (A-134)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "perceivable",
+      "structure",
+      "klic-ext",
+      "kq_a"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "kwcag_kwcag_1_3_134",
+    "viewport": "all"
+  }
+]

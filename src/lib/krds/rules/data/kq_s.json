@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "kq_s_001_sec_hdr_001",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-001",
+    "title": "HTTP 보안 헤더 규칙 #1",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_001",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_002_sec_tls_002",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-002",
+    "title": "TLS·혼합콘텐츠 규칙 #2",
+    "description": "TLS·혼합콘텐츠 규칙 #2 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-002)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_002",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_003_sec_auth_003",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-003",
+    "title": "인증·세션 보안 규칙 #3",
+    "description": "인증·세션 보안 규칙 #3 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-003)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_003",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_004_sec_inj_004",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-004",
+    "title": "주입 취약점 규칙 #4",
+    "description": "주입 취약점 규칙 #4 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-004)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_004",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_005_sec_access_005",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-005",
+    "title": "접근통제·IDOR 규칙 #5",
+    "description": "접근통제·IDOR 규칙 #5 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-005)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_005",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_006_sec_cfg_006",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-006",
+    "title": "보안 설정 오류 규칙 #6",
+    "description": "보안 설정 오류 규칙 #6 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-006)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_006",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_007_sec_data_007",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-007",
+    "title": "민감 데이터 노출 규칙 #7",
+    "description": "민감 데이터 노출 규칙 #7 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-007)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_007",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_008_sec_ssrf_008",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-008",
+    "title": "SSRF·오픈리다이렉트 규칙 #8",
+    "description": "SSRF·오픈리다이렉트 규칙 #8 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-008)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_008",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_009_sec_hdr_009",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-009",
+    "title": "HTTP 보안 헤더 규칙 #9",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_009",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_010_sec_tls_010",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-010",
+    "title": "TLS·혼합콘텐츠 규칙 #10",
+    "description": "TLS·혼합콘텐츠 규칙 #10 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-010)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_010",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_011_sec_auth_011",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-011",
+    "title": "인증·세션 보안 규칙 #11",
+    "description": "인증·세션 보안 규칙 #11 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-011)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_011",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_012_sec_inj_012",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-012",
+    "title": "주입 취약점 규칙 #12",
+    "description": "주입 취약점 규칙 #12 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-012)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_012",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_013_sec_access_013",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-013",
+    "title": "접근통제·IDOR 규칙 #13",
+    "description": "접근통제·IDOR 규칙 #13 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-013)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_013",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_014_sec_cfg_014",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-014",
+    "title": "보안 설정 오류 규칙 #14",
+    "description": "보안 설정 오류 규칙 #14 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-014)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_014",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_015_sec_data_015",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-015",
+    "title": "민감 데이터 노출 규칙 #15",
+    "description": "민감 데이터 노출 규칙 #15 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-015)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_015",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_016_sec_ssrf_016",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-016",
+    "title": "SSRF·오픈리다이렉트 규칙 #16",
+    "description": "SSRF·오픈리다이렉트 규칙 #16 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-016)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_016",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_017_sec_hdr_017",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-017",
+    "title": "HTTP 보안 헤더 규칙 #17",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_017",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_018_sec_tls_018",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-018",
+    "title": "TLS·혼합콘텐츠 규칙 #18",
+    "description": "TLS·혼합콘텐츠 규칙 #18 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-018)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_018",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_019_sec_auth_019",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-019",
+    "title": "인증·세션 보안 규칙 #19",
+    "description": "인증·세션 보안 규칙 #19 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-019)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_019",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_020_sec_inj_020",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-020",
+    "title": "주입 취약점 규칙 #20",
+    "description": "주입 취약점 규칙 #20 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-020)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_020",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_021_sec_access_021",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-021",
+    "title": "접근통제·IDOR 규칙 #21",
+    "description": "접근통제·IDOR 규칙 #21 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-021)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_021",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_022_sec_cfg_022",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-022",
+    "title": "보안 설정 오류 규칙 #22",
+    "description": "보안 설정 오류 규칙 #22 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-022)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_022",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_023_sec_data_023",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-023",
+    "title": "민감 데이터 노출 규칙 #23",
+    "description": "민감 데이터 노출 규칙 #23 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-023)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_023",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_024_sec_ssrf_024",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-024",
+    "title": "SSRF·오픈리다이렉트 규칙 #24",
+    "description": "SSRF·오픈리다이렉트 규칙 #24 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-024)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_024",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_025_sec_hdr_025",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-025",
+    "title": "HTTP 보안 헤더 규칙 #25",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_025",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_026_sec_tls_026",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-026",
+    "title": "TLS·혼합콘텐츠 규칙 #26",
+    "description": "TLS·혼합콘텐츠 규칙 #26 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-026)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_026",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_027_sec_auth_027",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-027",
+    "title": "인증·세션 보안 규칙 #27",
+    "description": "인증·세션 보안 규칙 #27 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-027)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_027",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_028_sec_inj_028",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-028",
+    "title": "주입 취약점 규칙 #28",
+    "description": "주입 취약점 규칙 #28 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-028)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_028",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_029_sec_access_029",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-029",
+    "title": "접근통제·IDOR 규칙 #29",
+    "description": "접근통제·IDOR 규칙 #29 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-029)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_029",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_030_sec_cfg_030",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-030",
+    "title": "보안 설정 오류 규칙 #30",
+    "description": "보안 설정 오류 규칙 #30 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-030)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_030",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_031_sec_data_031",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-031",
+    "title": "민감 데이터 노출 규칙 #31",
+    "description": "민감 데이터 노출 규칙 #31 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-031)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_031",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_032_sec_ssrf_032",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-032",
+    "title": "SSRF·오픈리다이렉트 규칙 #32",
+    "description": "SSRF·오픈리다이렉트 규칙 #32 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-032)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_032",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_033_sec_hdr_033",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-033",
+    "title": "HTTP 보안 헤더 규칙 #33",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_033",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_034_sec_tls_034",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-034",
+    "title": "TLS·혼합콘텐츠 규칙 #34",
+    "description": "TLS·혼합콘텐츠 규칙 #34 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-034)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_034",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_035_sec_auth_035",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-035",
+    "title": "인증·세션 보안 규칙 #35",
+    "description": "인증·세션 보안 규칙 #35 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-035)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_035",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_036_sec_inj_036",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-036",
+    "title": "주입 취약점 규칙 #36",
+    "description": "주입 취약점 규칙 #36 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-036)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_036",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_037_sec_access_037",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-037",
+    "title": "접근통제·IDOR 규칙 #37",
+    "description": "접근통제·IDOR 규칙 #37 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-037)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_037",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_038_sec_cfg_038",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-038",
+    "title": "보안 설정 오류 규칙 #38",
+    "description": "보안 설정 오류 규칙 #38 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-038)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_038",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_039_sec_data_039",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-039",
+    "title": "민감 데이터 노출 규칙 #39",
+    "description": "민감 데이터 노출 규칙 #39 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-039)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_039",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_040_sec_ssrf_040",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-040",
+    "title": "SSRF·오픈리다이렉트 규칙 #40",
+    "description": "SSRF·오픈리다이렉트 규칙 #40 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-040)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_040",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_041_sec_hdr_041",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-041",
+    "title": "HTTP 보안 헤더 규칙 #41",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_041",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_042_sec_tls_042",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-042",
+    "title": "TLS·혼합콘텐츠 규칙 #42",
+    "description": "TLS·혼합콘텐츠 규칙 #42 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-042)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_042",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_043_sec_auth_043",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-043",
+    "title": "인증·세션 보안 규칙 #43",
+    "description": "인증·세션 보안 규칙 #43 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-043)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_043",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_044_sec_inj_044",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-044",
+    "title": "주입 취약점 규칙 #44",
+    "description": "주입 취약점 규칙 #44 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-044)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_044",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_045_sec_access_045",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-045",
+    "title": "접근통제·IDOR 규칙 #45",
+    "description": "접근통제·IDOR 규칙 #45 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-045)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_045",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_046_sec_cfg_046",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-046",
+    "title": "보안 설정 오류 규칙 #46",
+    "description": "보안 설정 오류 규칙 #46 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-046)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_046",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_047_sec_data_047",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-047",
+    "title": "민감 데이터 노출 규칙 #47",
+    "description": "민감 데이터 노출 규칙 #47 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-047)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_047",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_048_sec_ssrf_048",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-048",
+    "title": "SSRF·오픈리다이렉트 규칙 #48",
+    "description": "SSRF·오픈리다이렉트 규칙 #48 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-048)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_048",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_049_sec_hdr_049",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-049",
+    "title": "HTTP 보안 헤더 규칙 #49",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_049",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_050_sec_tls_050",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-050",
+    "title": "TLS·혼합콘텐츠 규칙 #50",
+    "description": "TLS·혼합콘텐츠 규칙 #50 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-050)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_050",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_051_sec_auth_051",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-051",
+    "title": "인증·세션 보안 규칙 #51",
+    "description": "인증·세션 보안 규칙 #51 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-051)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_051",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_052_sec_inj_052",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-052",
+    "title": "주입 취약점 규칙 #52",
+    "description": "주입 취약점 규칙 #52 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-052)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_052",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_053_sec_access_053",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-053",
+    "title": "접근통제·IDOR 규칙 #53",
+    "description": "접근통제·IDOR 규칙 #53 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-053)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_053",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_054_sec_cfg_054",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-054",
+    "title": "보안 설정 오류 규칙 #54",
+    "description": "보안 설정 오류 규칙 #54 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-054)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_054",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_055_sec_data_055",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-055",
+    "title": "민감 데이터 노출 규칙 #55",
+    "description": "민감 데이터 노출 규칙 #55 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-055)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_055",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_056_sec_ssrf_056",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-056",
+    "title": "SSRF·오픈리다이렉트 규칙 #56",
+    "description": "SSRF·오픈리다이렉트 규칙 #56 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-056)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_056",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_057_sec_hdr_057",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-057",
+    "title": "HTTP 보안 헤더 규칙 #57",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_057",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_058_sec_tls_058",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-058",
+    "title": "TLS·혼합콘텐츠 규칙 #58",
+    "description": "TLS·혼합콘텐츠 규칙 #58 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-058)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_058",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_059_sec_auth_059",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-059",
+    "title": "인증·세션 보안 규칙 #59",
+    "description": "인증·세션 보안 규칙 #59 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-059)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_059",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_060_sec_inj_060",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-060",
+    "title": "주입 취약점 규칙 #60",
+    "description": "주입 취약점 규칙 #60 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-060)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_060",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_061_sec_access_061",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-061",
+    "title": "접근통제·IDOR 규칙 #61",
+    "description": "접근통제·IDOR 규칙 #61 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-061)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_061",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_062_sec_cfg_062",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-062",
+    "title": "보안 설정 오류 규칙 #62",
+    "description": "보안 설정 오류 규칙 #62 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-062)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_062",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_063_sec_data_063",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-063",
+    "title": "민감 데이터 노출 규칙 #63",
+    "description": "민감 데이터 노출 규칙 #63 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-063)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_063",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_064_sec_ssrf_064",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-064",
+    "title": "SSRF·오픈리다이렉트 규칙 #64",
+    "description": "SSRF·오픈리다이렉트 규칙 #64 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-064)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_064",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_065_sec_hdr_065",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-065",
+    "title": "HTTP 보안 헤더 규칙 #65",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_065",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_066_sec_tls_066",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-066",
+    "title": "TLS·혼합콘텐츠 규칙 #66",
+    "description": "TLS·혼합콘텐츠 규칙 #66 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-066)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_066",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_067_sec_auth_067",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-067",
+    "title": "인증·세션 보안 규칙 #67",
+    "description": "인증·세션 보안 규칙 #67 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-067)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_067",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_068_sec_inj_068",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-068",
+    "title": "주입 취약점 규칙 #68",
+    "description": "주입 취약점 규칙 #68 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-068)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_068",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_069_sec_access_069",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-069",
+    "title": "접근통제·IDOR 규칙 #69",
+    "description": "접근통제·IDOR 규칙 #69 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-069)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_069",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_070_sec_cfg_070",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-070",
+    "title": "보안 설정 오류 규칙 #70",
+    "description": "보안 설정 오류 규칙 #70 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-070)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_070",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_071_sec_data_071",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-071",
+    "title": "민감 데이터 노출 규칙 #71",
+    "description": "민감 데이터 노출 규칙 #71 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-071)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_071",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_072_sec_ssrf_072",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-072",
+    "title": "SSRF·오픈리다이렉트 규칙 #72",
+    "description": "SSRF·오픈리다이렉트 규칙 #72 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-072)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_072",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_073_sec_hdr_073",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 헤더",
+    "code": "S-073",
+    "title": "HTTP 보안 헤더 규칙 #73",
+    "description": "CSP, HSTS, X-Frame-Options, Referrer-Policy 등 헤더를 검증합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "headers",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_hdr_073",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_074_sec_tls_074",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "전송 보안",
+    "code": "S-074",
+    "title": "TLS·혼합콘텐츠 규칙 #74",
+    "description": "TLS·혼합콘텐츠 규칙 #74 — 웹 취약점/전송 보안 기준 준수 여부를 확인합니다. (S-074)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "tls",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_tls_074",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_075_sec_auth_075",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "인증·세션",
+    "code": "S-075",
+    "title": "인증·세션 보안 규칙 #75",
+    "description": "인증·세션 보안 규칙 #75 — 웹 취약점/인증·세션 기준 준수 여부를 확인합니다. (S-075)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "auth",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_auth_075",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_076_sec_inj_076",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "주입",
+    "code": "S-076",
+    "title": "주입 취약점 규칙 #76",
+    "description": "주입 취약점 규칙 #76 — 웹 취약점/주입 기준 준수 여부를 확인합니다. (S-076)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "injection",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_inj_076",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_077_sec_access_077",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "접근통제",
+    "code": "S-077",
+    "title": "접근통제·IDOR 규칙 #77",
+    "description": "접근통제·IDOR 규칙 #77 — 웹 취약점/접근통제 기준 준수 여부를 확인합니다. (S-077)",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "owasp",
+      "access",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_access_077",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_078_sec_cfg_078",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "보안 설정",
+    "code": "S-078",
+    "title": "보안 설정 오류 규칙 #78",
+    "description": "보안 설정 오류 규칙 #78 — 웹 취약점/보안 설정 기준 준수 여부를 확인합니다. (S-078)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "config",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_cfg_078",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_079_sec_data_079",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "민감데이터",
+    "code": "S-079",
+    "title": "민감 데이터 노출 규칙 #79",
+    "description": "민감 데이터 노출 규칙 #79 — 웹 취약점/민감데이터 기준 준수 여부를 확인합니다. (S-079)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "owasp",
+      "data",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_data_079",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_s_080_sec_ssrf_080",
+    "domain": "kq_s",
+    "axisCode": "S",
+    "category": "웹 취약점",
+    "subcategory": "SSRF·리다이렉트",
+    "code": "S-080",
+    "title": "SSRF·오픈리다이렉트 규칙 #80",
+    "description": "SSRF·오픈리다이렉트 규칙 #80 — 웹 취약점/SSRF·리다이렉트 기준 준수 여부를 확인합니다. (S-080)",
+    "severityDefault": "critical",
+    "priorityDefault": "P0",
+    "tags": [
+      "owasp",
+      "ssrf",
+      "klic-ext",
+      "kq_s"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-AUTH",
+      "SC-APPLY",
+      "SC-PAY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "security_sec_ssrf_080",
+    "viewport": "all"
+  }
+]

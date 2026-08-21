@@ -1,0 +1,3611 @@
+[
+  {
+    "id": "kq_i_마스트헤드_masthead_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "마스트헤드 (Masthead)",
+    "code": "I-CP-01-1",
+    "title": "마스트헤드 (Masthead) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 마스트헤드 (Masthead))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "masthead",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_마스트헤드_masthead_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "마스트헤드 (Masthead)",
+    "code": "I-CP-01-2",
+    "title": "마스트헤드 (Masthead) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 마스트헤드 (Masthead))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "masthead",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_마스트헤드_masthead_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "마스트헤드 (Masthead)",
+    "code": "I-CP-01-3",
+    "title": "마스트헤드 (Masthead) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 마스트헤드 (Masthead))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "masthead",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_식별자_identifier_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "식별자 (Identifier)",
+    "code": "I-CP-02-1",
+    "title": "식별자 (Identifier) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 식별자 (Identifier))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "identifier",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_식별자_identifier_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "식별자 (Identifier)",
+    "code": "I-CP-02-2",
+    "title": "식별자 (Identifier) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 식별자 (Identifier))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "identifier",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_식별자_identifier_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "식별자 (Identifier)",
+    "code": "I-CP-02-3",
+    "title": "식별자 (Identifier) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 식별자 (Identifier))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "identifier",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_헤더_header_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "헤더 (Header)",
+    "code": "I-CP-03-1",
+    "title": "헤더 (Header) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 헤더 (Header))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "header",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_헤더_header_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "헤더 (Header)",
+    "code": "I-CP-03-2",
+    "title": "헤더 (Header) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 헤더 (Header))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "header",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_헤더_header_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "헤더 (Header)",
+    "code": "I-CP-03-3",
+    "title": "헤더 (Header) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 헤더 (Header))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "header",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_푸터_footer_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "푸터 (Footer)",
+    "code": "I-CP-04-1",
+    "title": "푸터 (Footer) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 푸터 (Footer))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "footer",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_푸터_footer_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "푸터 (Footer)",
+    "code": "I-CP-04-2",
+    "title": "푸터 (Footer) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 푸터 (Footer))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "footer",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_푸터_footer_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "푸터 (Footer)",
+    "code": "I-CP-04-3",
+    "title": "푸터 (Footer) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 푸터 (Footer))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "footer",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_건너뛰기_링크_skip_link_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "건너뛰기 링크 (Skip Link)",
+    "code": "I-CP-05-1",
+    "title": "건너뛰기 링크 (Skip Link) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 건너뛰기 링크 (Skip Link))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "skip-link",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_건너뛰기_링크_skip_link_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "건너뛰기 링크 (Skip Link)",
+    "code": "I-CP-05-2",
+    "title": "건너뛰기 링크 (Skip Link) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 건너뛰기 링크 (Skip Link))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "skip-link",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_건너뛰기_링크_skip_link_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "건너뛰기 링크 (Skip Link)",
+    "code": "I-CP-05-3",
+    "title": "건너뛰기 링크 (Skip Link) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 건너뛰기 링크 (Skip Link))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "skip-link",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_주_메뉴_main_menu_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "주 메뉴 (Main Menu)",
+    "code": "I-CP-06-1",
+    "title": "주 메뉴 (Main Menu) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 주 메뉴 (Main Menu))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "main-menu",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_주_메뉴_main_menu_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "주 메뉴 (Main Menu)",
+    "code": "I-CP-06-2",
+    "title": "주 메뉴 (Main Menu) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 주 메뉴 (Main Menu))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "main-menu",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_주_메뉴_main_menu_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "주 메뉴 (Main Menu)",
+    "code": "I-CP-06-3",
+    "title": "주 메뉴 (Main Menu) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 주 메뉴 (Main Menu))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "main-menu",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_브레드크럼_breadcrumb_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "브레드크럼 (Breadcrumb)",
+    "code": "I-CP-07-1",
+    "title": "브레드크럼 (Breadcrumb) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 브레드크럼 (Breadcrumb))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "breadcrumb",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_브레드크럼_breadcrumb_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "브레드크럼 (Breadcrumb)",
+    "code": "I-CP-07-2",
+    "title": "브레드크럼 (Breadcrumb) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 브레드크럼 (Breadcrumb))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "breadcrumb",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_브레드크럼_breadcrumb_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "브레드크럼 (Breadcrumb)",
+    "code": "I-CP-07-3",
+    "title": "브레드크럼 (Breadcrumb) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 브레드크럼 (Breadcrumb))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "breadcrumb",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_사이드_네비게이션_side_navigation_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "사이드 네비게이션 (Side Navigation)",
+    "code": "I-CP-08-1",
+    "title": "사이드 네비게이션 (Side Navigation) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 사이드 네비게이션 (Side Navigation))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "side-navigation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_사이드_네비게이션_side_navigation_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "사이드 네비게이션 (Side Navigation)",
+    "code": "I-CP-08-2",
+    "title": "사이드 네비게이션 (Side Navigation) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 사이드 네비게이션 (Side Navigation))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "side-navigation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_사이드_네비게이션_side_navigation_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "사이드 네비게이션 (Side Navigation)",
+    "code": "I-CP-08-3",
+    "title": "사이드 네비게이션 (Side Navigation) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 사이드 네비게이션 (Side Navigation))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "side-navigation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_페이지_내_네비게이션_in_page_navigation_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "페이지 내 네비게이션 (In-page Navigation)",
+    "code": "I-CP-09-1",
+    "title": "페이지 내 네비게이션 (In-page Navigation) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 페이지 내 네비게이션 (In-page Navigation))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "in-page-navigation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_페이지_내_네비게이션_in_page_navigation_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "페이지 내 네비게이션 (In-page Navigation)",
+    "code": "I-CP-09-2",
+    "title": "페이지 내 네비게이션 (In-page Navigation) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 페이지 내 네비게이션 (In-page Navigation))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "in-page-navigation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_페이지_내_네비게이션_in_page_navigation_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "페이지 내 네비게이션 (In-page Navigation)",
+    "code": "I-CP-09-3",
+    "title": "페이지 내 네비게이션 (In-page Navigation) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 페이지 내 네비게이션 (In-page Navigation))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "in-page-navigation",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_페이지네이션_pagination_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "페이지네이션 (Pagination)",
+    "code": "I-CP-10-1",
+    "title": "페이지네이션 (Pagination) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 페이지네이션 (Pagination))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "pagination",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_페이지네이션_pagination_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "페이지네이션 (Pagination)",
+    "code": "I-CP-10-2",
+    "title": "페이지네이션 (Pagination) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 페이지네이션 (Pagination))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "pagination",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_페이지네이션_pagination_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "페이지네이션 (Pagination)",
+    "code": "I-CP-10-3",
+    "title": "페이지네이션 (Pagination) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 페이지네이션 (Pagination))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "pagination",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_탭_바_tab_bars_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "탭 바 (Tab Bars)",
+    "code": "I-CP-11-1",
+    "title": "탭 바 (Tab Bars) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 탭 바 (Tab Bars))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tab-bars",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_탭_바_tab_bars_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "탭 바 (Tab Bars)",
+    "code": "I-CP-11-2",
+    "title": "탭 바 (Tab Bars) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 탭 바 (Tab Bars))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tab-bars",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_탭_바_tab_bars_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "탭 바 (Tab Bars)",
+    "code": "I-CP-11-3",
+    "title": "탭 바 (Tab Bars) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 탭 바 (Tab Bars))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tab-bars",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_구조화된_목록_structured_list_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "구조화된 목록 (Structured List)",
+    "code": "I-CP-12-1",
+    "title": "구조화된 목록 (Structured List) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 구조화된 목록 (Structured List))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "structured-list",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_구조화된_목록_structured_list_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "구조화된 목록 (Structured List)",
+    "code": "I-CP-12-2",
+    "title": "구조화된 목록 (Structured List) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 구조화된 목록 (Structured List))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "structured-list",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_구조화된_목록_structured_list_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "구조화된 목록 (Structured List)",
+    "code": "I-CP-12-3",
+    "title": "구조화된 목록 (Structured List) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 구조화된 목록 (Structured List))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "structured-list",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_중요_알림_critical_alerts_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "중요 알림 (Critical Alerts)",
+    "code": "I-CP-13-1",
+    "title": "중요 알림 (Critical Alerts) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 중요 알림 (Critical Alerts))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "critical-alerts",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_중요_알림_critical_alerts_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "중요 알림 (Critical Alerts)",
+    "code": "I-CP-13-2",
+    "title": "중요 알림 (Critical Alerts) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 중요 알림 (Critical Alerts))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "critical-alerts",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_중요_알림_critical_alerts_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "중요 알림 (Critical Alerts)",
+    "code": "I-CP-13-3",
+    "title": "중요 알림 (Critical Alerts) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 중요 알림 (Critical Alerts))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "critical-alerts",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_달력_calendar_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "달력 (Calendar)",
+    "code": "I-CP-14-1",
+    "title": "달력 (Calendar) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 달력 (Calendar))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "calendar",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_달력_calendar_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "달력 (Calendar)",
+    "code": "I-CP-14-2",
+    "title": "달력 (Calendar) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 달력 (Calendar))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "calendar",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_달력_calendar_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "달력 (Calendar)",
+    "code": "I-CP-14-3",
+    "title": "달력 (Calendar) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 달력 (Calendar))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "calendar",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_공개_숨김_disclosure_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "공개/숨김 (Disclosure)",
+    "code": "I-CP-15-1",
+    "title": "공개/숨김 (Disclosure) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 공개/숨김 (Disclosure))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "disclosure",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_공개_숨김_disclosure_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "공개/숨김 (Disclosure)",
+    "code": "I-CP-15-2",
+    "title": "공개/숨김 (Disclosure) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 공개/숨김 (Disclosure))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "disclosure",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_공개_숨김_disclosure_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "공개/숨김 (Disclosure)",
+    "code": "I-CP-15-3",
+    "title": "공개/숨김 (Disclosure) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 공개/숨김 (Disclosure))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "disclosure",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_모달_modal_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "모달 (Modal)",
+    "code": "I-CP-16-1",
+    "title": "모달 (Modal) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 모달 (Modal))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "modal",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_모달_modal_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "모달 (Modal)",
+    "code": "I-CP-16-2",
+    "title": "모달 (Modal) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 모달 (Modal))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "modal",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_모달_modal_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "모달 (Modal)",
+    "code": "I-CP-16-3",
+    "title": "모달 (Modal) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 모달 (Modal))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "modal",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_배지_badge_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "배지 (Badge)",
+    "code": "I-CP-17-1",
+    "title": "배지 (Badge) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 배지 (Badge))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "badge",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_배지_badge_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "배지 (Badge)",
+    "code": "I-CP-17-2",
+    "title": "배지 (Badge) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 배지 (Badge))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "badge",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_배지_badge_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "배지 (Badge)",
+    "code": "I-CP-17-3",
+    "title": "배지 (Badge) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 배지 (Badge))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "badge",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_아코디언_accordion_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "아코디언 (Accordion)",
+    "code": "I-CP-18-1",
+    "title": "아코디언 (Accordion) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 아코디언 (Accordion))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "accordion",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_아코디언_accordion_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "아코디언 (Accordion)",
+    "code": "I-CP-18-2",
+    "title": "아코디언 (Accordion) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 아코디언 (Accordion))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "accordion",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_아코디언_accordion_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "아코디언 (Accordion)",
+    "code": "I-CP-18-3",
+    "title": "아코디언 (Accordion) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 아코디언 (Accordion))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "accordion",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_이미지_image_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "이미지 (Image)",
+    "code": "I-CP-19-1",
+    "title": "이미지 (Image) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 이미지 (Image))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "image",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_이미지_image_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "이미지 (Image)",
+    "code": "I-CP-19-2",
+    "title": "이미지 (Image) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 이미지 (Image))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "image",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_이미지_image_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "이미지 (Image)",
+    "code": "I-CP-19-3",
+    "title": "이미지 (Image) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 이미지 (Image))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "image",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_캐러셀_carousel_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "캐러셀 (Carousel)",
+    "code": "I-CP-20-1",
+    "title": "캐러셀 (Carousel) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 캐러셀 (Carousel))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "carousel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_캐러셀_carousel_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "캐러셀 (Carousel)",
+    "code": "I-CP-20-2",
+    "title": "캐러셀 (Carousel) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 캐러셀 (Carousel))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "carousel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_캐러셀_carousel_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "캐러셀 (Carousel)",
+    "code": "I-CP-20-3",
+    "title": "캐러셀 (Carousel) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 캐러셀 (Carousel))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "carousel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_탭_tab_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "탭 (Tab)",
+    "code": "I-CP-21-1",
+    "title": "탭 (Tab) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 탭 (Tab))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tab",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_탭_tab_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "탭 (Tab)",
+    "code": "I-CP-21-2",
+    "title": "탭 (Tab) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 탭 (Tab))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tab",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_탭_tab_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "탭 (Tab)",
+    "code": "I-CP-21-3",
+    "title": "탭 (Tab) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 탭 (Tab))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tab",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_테이블_table_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "테이블 (Table)",
+    "code": "I-CP-22-1",
+    "title": "테이블 (Table) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 테이블 (Table))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "table",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_테이블_table_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "테이블 (Table)",
+    "code": "I-CP-22-2",
+    "title": "테이블 (Table) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 테이블 (Table))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "table",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_테이블_table_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "테이블 (Table)",
+    "code": "I-CP-22-3",
+    "title": "테이블 (Table) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 테이블 (Table))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "table",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_스플래시_화면_splash_screen_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "스플래시 화면 (Splash Screen)",
+    "code": "I-CP-23-1",
+    "title": "스플래시 화면 (Splash Screen) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 스플래시 화면 (Splash Screen))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "splash-screen",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_스플래시_화면_splash_screen_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "스플래시 화면 (Splash Screen)",
+    "code": "I-CP-23-2",
+    "title": "스플래시 화면 (Splash Screen) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 스플래시 화면 (Splash Screen))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "splash-screen",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_스플래시_화면_splash_screen_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "스플래시 화면 (Splash Screen)",
+    "code": "I-CP-23-3",
+    "title": "스플래시 화면 (Splash Screen) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 스플래시 화면 (Splash Screen))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "splash-screen",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트_목록_text_list_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트 목록 (Text List)",
+    "code": "I-CP-24-1",
+    "title": "텍스트 목록 (Text List) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 텍스트 목록 (Text List))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "text-list",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트_목록_text_list_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트 목록 (Text List)",
+    "code": "I-CP-24-2",
+    "title": "텍스트 목록 (Text List) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 텍스트 목록 (Text List))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "text-list",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트_목록_text_list_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트 목록 (Text List)",
+    "code": "I-CP-24-3",
+    "title": "텍스트 목록 (Text List) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 텍스트 목록 (Text List))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "text-list",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_링크_link_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "링크 (Link)",
+    "code": "I-CP-25-1",
+    "title": "링크 (Link) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 링크 (Link))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "link",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_링크_link_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "링크 (Link)",
+    "code": "I-CP-25-2",
+    "title": "링크 (Link) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 링크 (Link))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "link",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_링크_link_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "링크 (Link)",
+    "code": "I-CP-25-3",
+    "title": "링크 (Link) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 링크 (Link))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "link",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_버튼_button_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "버튼 (Button)",
+    "code": "I-CP-26-1",
+    "title": "버튼 (Button) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 버튼 (Button))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "button",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_버튼_button_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "버튼 (Button)",
+    "code": "I-CP-26-2",
+    "title": "버튼 (Button) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 버튼 (Button))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "button",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_버튼_button_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "버튼 (Button)",
+    "code": "I-CP-26-3",
+    "title": "버튼 (Button) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 버튼 (Button))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "button",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_라디오_버튼_radio_button_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "라디오 버튼 (Radio Button)",
+    "code": "I-CP-27-1",
+    "title": "라디오 버튼 (Radio Button) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 라디오 버튼 (Radio Button))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "radio-button",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_라디오_버튼_radio_button_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "라디오 버튼 (Radio Button)",
+    "code": "I-CP-27-2",
+    "title": "라디오 버튼 (Radio Button) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 라디오 버튼 (Radio Button))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "radio-button",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_라디오_버튼_radio_button_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "라디오 버튼 (Radio Button)",
+    "code": "I-CP-27-3",
+    "title": "라디오 버튼 (Radio Button) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 라디오 버튼 (Radio Button))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "radio-button",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_체크박스_checkbox_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "체크박스 (Checkbox)",
+    "code": "I-CP-28-1",
+    "title": "체크박스 (Checkbox) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 체크박스 (Checkbox))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "checkbox",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_체크박스_checkbox_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "체크박스 (Checkbox)",
+    "code": "I-CP-28-2",
+    "title": "체크박스 (Checkbox) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 체크박스 (Checkbox))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "checkbox",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_체크박스_checkbox_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "체크박스 (Checkbox)",
+    "code": "I-CP-28-3",
+    "title": "체크박스 (Checkbox) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 체크박스 (Checkbox))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "checkbox",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_셀렉트_select_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "셀렉트 (Select)",
+    "code": "I-CP-29-1",
+    "title": "셀렉트 (Select) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 셀렉트 (Select))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "select",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_셀렉트_select_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "셀렉트 (Select)",
+    "code": "I-CP-29-2",
+    "title": "셀렉트 (Select) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 셀렉트 (Select))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "select",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_셀렉트_select_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "셀렉트 (Select)",
+    "code": "I-CP-29-3",
+    "title": "셀렉트 (Select) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 셀렉트 (Select))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "select",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_태그_tag_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "태그 (Tag)",
+    "code": "I-CP-30-1",
+    "title": "태그 (Tag) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 태그 (Tag))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tag",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_태그_tag_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "태그 (Tag)",
+    "code": "I-CP-30-2",
+    "title": "태그 (Tag) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 태그 (Tag))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tag",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_태그_tag_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "태그 (Tag)",
+    "code": "I-CP-30-3",
+    "title": "태그 (Tag) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 태그 (Tag))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tag",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_토글_스위치_toggle_switch_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "토글 스위치 (Toggle Switch)",
+    "code": "I-CP-31-1",
+    "title": "토글 스위치 (Toggle Switch) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 토글 스위치 (Toggle Switch))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "toggle-switch",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_토글_스위치_toggle_switch_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "토글 스위치 (Toggle Switch)",
+    "code": "I-CP-31-2",
+    "title": "토글 스위치 (Toggle Switch) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 토글 스위치 (Toggle Switch))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "toggle-switch",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_토글_스위치_toggle_switch_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "토글 스위치 (Toggle Switch)",
+    "code": "I-CP-31-3",
+    "title": "토글 스위치 (Toggle Switch) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 토글 스위치 (Toggle Switch))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "toggle-switch",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_단계_표시기_step_indicator_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "단계 표시기 (Step Indicator)",
+    "code": "I-CP-32-1",
+    "title": "단계 표시기 (Step Indicator) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 단계 표시기 (Step Indicator))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "step-indicator",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_단계_표시기_step_indicator_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "단계 표시기 (Step Indicator)",
+    "code": "I-CP-32-2",
+    "title": "단계 표시기 (Step Indicator) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 단계 표시기 (Step Indicator))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "step-indicator",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_단계_표시기_step_indicator_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "단계 표시기 (Step Indicator)",
+    "code": "I-CP-32-3",
+    "title": "단계 표시기 (Step Indicator) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 단계 표시기 (Step Indicator))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "step-indicator",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_스피너_spinner_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "스피너 (Spinner)",
+    "code": "I-CP-33-1",
+    "title": "스피너 (Spinner) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 스피너 (Spinner))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "spinner",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_스피너_spinner_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "스피너 (Spinner)",
+    "code": "I-CP-33-2",
+    "title": "스피너 (Spinner) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 스피너 (Spinner))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "spinner",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_스피너_spinner_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "스피너 (Spinner)",
+    "code": "I-CP-33-3",
+    "title": "스피너 (Spinner) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 스피너 (Spinner))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-OPS"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "spinner",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_도움말_패널_help_panel_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "도움말 패널 (Help Panel)",
+    "code": "I-CP-34-1",
+    "title": "도움말 패널 (Help Panel) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 도움말 패널 (Help Panel))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "help-panel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_도움말_패널_help_panel_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "도움말 패널 (Help Panel)",
+    "code": "I-CP-34-2",
+    "title": "도움말 패널 (Help Panel) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 도움말 패널 (Help Panel))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "help-panel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_도움말_패널_help_panel_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "도움말 패널 (Help Panel)",
+    "code": "I-CP-34-3",
+    "title": "도움말 패널 (Help Panel) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 도움말 패널 (Help Panel))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "help-panel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_튜토리얼_패널_tutorial_panel_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "튜토리얼 패널 (Tutorial Panel)",
+    "code": "I-CP-35-1",
+    "title": "튜토리얼 패널 (Tutorial Panel) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 튜토리얼 패널 (Tutorial Panel))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tutorial-panel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_튜토리얼_패널_tutorial_panel_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "튜토리얼 패널 (Tutorial Panel)",
+    "code": "I-CP-35-2",
+    "title": "튜토리얼 패널 (Tutorial Panel) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 튜토리얼 패널 (Tutorial Panel))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tutorial-panel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_튜토리얼_패널_tutorial_panel_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "튜토리얼 패널 (Tutorial Panel)",
+    "code": "I-CP-35-3",
+    "title": "튜토리얼 패널 (Tutorial Panel) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 튜토리얼 패널 (Tutorial Panel))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tutorial-panel",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_문맥_도움말_contextual_help_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "문맥 도움말 (Contextual Help)",
+    "code": "I-CP-36-1",
+    "title": "문맥 도움말 (Contextual Help) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 문맥 도움말 (Contextual Help))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "contextual-help",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_문맥_도움말_contextual_help_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "문맥 도움말 (Contextual Help)",
+    "code": "I-CP-36-2",
+    "title": "문맥 도움말 (Contextual Help) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 문맥 도움말 (Contextual Help))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "contextual-help",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_문맥_도움말_contextual_help_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "문맥 도움말 (Contextual Help)",
+    "code": "I-CP-36-3",
+    "title": "문맥 도움말 (Contextual Help) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 문맥 도움말 (Contextual Help))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "contextual-help",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_코치_마크_coach_mark_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "코치 마크 (Coach Mark)",
+    "code": "I-CP-37-1",
+    "title": "코치 마크 (Coach Mark) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 코치 마크 (Coach Mark))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "coach-mark",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_코치_마크_coach_mark_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "코치 마크 (Coach Mark)",
+    "code": "I-CP-37-2",
+    "title": "코치 마크 (Coach Mark) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 코치 마크 (Coach Mark))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "coach-mark",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_코치_마크_coach_mark_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "코치 마크 (Coach Mark)",
+    "code": "I-CP-37-3",
+    "title": "코치 마크 (Coach Mark) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 코치 마크 (Coach Mark))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "coach-mark",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_툴팁_tooltip_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "툴팁 (Tooltip)",
+    "code": "I-CP-38-1",
+    "title": "툴팁 (Tooltip) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 툴팁 (Tooltip))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tooltip",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_툴팁_tooltip_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "툴팁 (Tooltip)",
+    "code": "I-CP-38-2",
+    "title": "툴팁 (Tooltip) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 툴팁 (Tooltip))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tooltip",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_툴팁_tooltip_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "툴팁 (Tooltip)",
+    "code": "I-CP-38-3",
+    "title": "툴팁 (Tooltip) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 툴팁 (Tooltip))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "tooltip",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_날짜_입력_date_input_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "날짜 입력 (Date Input)",
+    "code": "I-CP-39-1",
+    "title": "날짜 입력 (Date Input) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 날짜 입력 (Date Input))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "date-input",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_날짜_입력_date_input_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "날짜 입력 (Date Input)",
+    "code": "I-CP-39-2",
+    "title": "날짜 입력 (Date Input) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 날짜 입력 (Date Input))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "date-input",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_날짜_입력_date_input_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "날짜 입력 (Date Input)",
+    "code": "I-CP-39-3",
+    "title": "날짜 입력 (Date Input) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 날짜 입력 (Date Input))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "date-input",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트영역_textarea_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트영역 (Textarea)",
+    "code": "I-CP-40-1",
+    "title": "텍스트영역 (Textarea) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 텍스트영역 (Textarea))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "textarea",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트영역_textarea_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트영역 (Textarea)",
+    "code": "I-CP-40-2",
+    "title": "텍스트영역 (Textarea) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 텍스트영역 (Textarea))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "textarea",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트영역_textarea_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트영역 (Textarea)",
+    "code": "I-CP-40-3",
+    "title": "텍스트영역 (Textarea) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 텍스트영역 (Textarea))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "textarea",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트_입력_text_input_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트 입력 (Text Input)",
+    "code": "I-CP-41-1",
+    "title": "텍스트 입력 (Text Input) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 텍스트 입력 (Text Input))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "text-input",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트_입력_text_input_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트 입력 (Text Input)",
+    "code": "I-CP-41-2",
+    "title": "텍스트 입력 (Text Input) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 텍스트 입력 (Text Input))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "text-input",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_텍스트_입력_text_input_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "텍스트 입력 (Text Input)",
+    "code": "I-CP-41-3",
+    "title": "텍스트 입력 (Text Input) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 텍스트 입력 (Text Input))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "text-input",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_파일_업로드_file_upload_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "파일 업로드 (File Upload)",
+    "code": "I-CP-42-1",
+    "title": "파일 업로드 (File Upload) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 파일 업로드 (File Upload))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "file-upload",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_파일_업로드_file_upload_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "파일 업로드 (File Upload)",
+    "code": "I-CP-42-2",
+    "title": "파일 업로드 (File Upload) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 파일 업로드 (File Upload))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "file-upload",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_파일_업로드_file_upload_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "파일 업로드 (File Upload)",
+    "code": "I-CP-42-3",
+    "title": "파일 업로드 (File Upload) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 파일 업로드 (File Upload))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-APPLY",
+      "SC-AUTH",
+      "SC-FIND"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "file-upload",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_언어_전환_language_switcher_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "언어 전환 (Language Switcher)",
+    "code": "I-CP-43-1",
+    "title": "언어 전환 (Language Switcher) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 언어 전환 (Language Switcher))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "language-switcher",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_언어_전환_language_switcher_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "언어 전환 (Language Switcher)",
+    "code": "I-CP-43-2",
+    "title": "언어 전환 (Language Switcher) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 언어 전환 (Language Switcher))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "language-switcher",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_언어_전환_language_switcher_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "언어 전환 (Language Switcher)",
+    "code": "I-CP-43-3",
+    "title": "언어 전환 (Language Switcher) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 언어 전환 (Language Switcher))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "language-switcher",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_크기_조절_resize_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "크기 조절 (Resize)",
+    "code": "I-CP-44-1",
+    "title": "크기 조절 (Resize) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 크기 조절 (Resize))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "resize",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_크기_조절_resize_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "크기 조절 (Resize)",
+    "code": "I-CP-44-2",
+    "title": "크기 조절 (Resize) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 크기 조절 (Resize))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "resize",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_크기_조절_resize_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "크기 조절 (Resize)",
+    "code": "I-CP-44-3",
+    "title": "크기 조절 (Resize) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 크기 조절 (Resize))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "resize",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_접근_가능한_멀티미디어_accessible_multimedia_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "접근 가능한 멀티미디어 (Accessible Multimedia)",
+    "code": "I-CP-45-1",
+    "title": "접근 가능한 멀티미디어 (Accessible Multimedia) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 접근 가능한 멀티미디어 (Accessible Multimedia))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "accessible-multimedia",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_접근_가능한_멀티미디어_accessible_multimedia_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "접근 가능한 멀티미디어 (Accessible Multimedia)",
+    "code": "I-CP-45-2",
+    "title": "접근 가능한 멀티미디어 (Accessible Multimedia) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 접근 가능한 멀티미디어 (Accessible Multimedia))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "accessible-multimedia",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_접근_가능한_멀티미디어_accessible_multimedia_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "접근 가능한 멀티미디어 (Accessible Multimedia)",
+    "code": "I-CP-45-3",
+    "title": "접근 가능한 멀티미디어 (Accessible Multimedia) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 접근 가능한 멀티미디어 (Accessible Multimedia))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "accessible-multimedia",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_숨김_콘텐츠_hidden_content_0",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "숨김 콘텐츠 (Hidden Content)",
+    "code": "I-CP-46-1",
+    "title": "숨김 콘텐츠 (Hidden Content) · 구조",
+    "description": "역할·필수 요소·슬롯 구조가 KRDS 명세와 맞는지 (KRDS-MCP 컴포넌트: 숨김 콘텐츠 (Hidden Content))",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "component",
+      "구조",
+      "krds-mcp",
+      "kq-i",
+      "구조"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "hidden-content",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_숨김_콘텐츠_hidden_content_1",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "숨김 콘텐츠 (Hidden Content)",
+    "code": "I-CP-46-2",
+    "title": "숨김 콘텐츠 (Hidden Content) · 상태",
+    "description": "default/hover/focus/disabled/error 상태가 정의·표현되는지 (KRDS-MCP 컴포넌트: 숨김 콘텐츠 (Hidden Content))",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "component",
+      "상태",
+      "krds-mcp",
+      "kq-i",
+      "상태"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "hidden-content",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_i_숨김_콘텐츠_hidden_content_2",
+    "domain": "kq_i",
+    "axisCode": "I",
+    "category": "컴포넌트",
+    "subcategory": "숨김 콘텐츠 (Hidden Content)",
+    "code": "I-CP-46-3",
+    "title": "숨김 콘텐츠 (Hidden Content) · 접근성",
+    "description": "이름·역할·키보드 초점이 보장되는지 (KRDS-MCP 컴포넌트: 숨김 콘텐츠 (Hidden Content))",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "component",
+      "접근성",
+      "krds-mcp",
+      "kq-i",
+      "접근성"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "hidden-content",
+    "viewport": "all"
+  }
+]

@@ -1,0 +1,2432 @@
+[
+  {
+    "id": "kq_r_001_rwd_mob_001",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-001",
+    "title": "모바일 뷰포트 규칙 #1",
+    "description": "모바일 뷰포트 규칙 #1 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-001)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_001",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_002_rwd_tab_002",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-002",
+    "title": "태블릿 뷰포트 규칙 #2",
+    "description": "태블릿 뷰포트 규칙 #2 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-002)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_002",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_003_rwd_desk_003",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-003",
+    "title": "데스크톱 뷰포트 규칙 #3",
+    "description": "데스크톱 뷰포트 규칙 #3 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-003)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_003",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_004_rwd_cross_004",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-004",
+    "title": "반응형 공통 규칙 #4",
+    "description": "반응형 공통 규칙 #4 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-004)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_004",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_005_rwd_mob_005",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-005",
+    "title": "모바일 뷰포트 규칙 #5",
+    "description": "모바일 뷰포트 규칙 #5 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-005)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_005",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_006_rwd_tab_006",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-006",
+    "title": "태블릿 뷰포트 규칙 #6",
+    "description": "태블릿 뷰포트 규칙 #6 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-006)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_006",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_007_rwd_desk_007",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-007",
+    "title": "데스크톱 뷰포트 규칙 #7",
+    "description": "데스크톱 뷰포트 규칙 #7 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-007)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_007",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_008_rwd_cross_008",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-008",
+    "title": "반응형 공통 규칙 #8",
+    "description": "반응형 공통 규칙 #8 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-008)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_008",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_009_rwd_mob_009",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-009",
+    "title": "모바일 뷰포트 규칙 #9",
+    "description": "모바일 뷰포트 규칙 #9 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-009)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_009",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_010_rwd_tab_010",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-010",
+    "title": "태블릿 뷰포트 규칙 #10",
+    "description": "태블릿 뷰포트 규칙 #10 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-010)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_010",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_011_rwd_desk_011",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-011",
+    "title": "데스크톱 뷰포트 규칙 #11",
+    "description": "데스크톱 뷰포트 규칙 #11 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-011)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_011",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_012_rwd_cross_012",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-012",
+    "title": "반응형 공통 규칙 #12",
+    "description": "반응형 공통 규칙 #12 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-012)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_012",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_013_rwd_mob_013",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-013",
+    "title": "모바일 뷰포트 규칙 #13",
+    "description": "모바일 뷰포트 규칙 #13 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-013)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_013",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_014_rwd_tab_014",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-014",
+    "title": "태블릿 뷰포트 규칙 #14",
+    "description": "태블릿 뷰포트 규칙 #14 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-014)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_014",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_015_rwd_desk_015",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-015",
+    "title": "데스크톱 뷰포트 규칙 #15",
+    "description": "데스크톱 뷰포트 규칙 #15 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-015)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_015",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_016_rwd_cross_016",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-016",
+    "title": "반응형 공통 규칙 #16",
+    "description": "반응형 공통 규칙 #16 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-016)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_016",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_017_rwd_mob_017",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-017",
+    "title": "모바일 뷰포트 규칙 #17",
+    "description": "모바일 뷰포트 규칙 #17 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-017)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_017",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_018_rwd_tab_018",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-018",
+    "title": "태블릿 뷰포트 규칙 #18",
+    "description": "태블릿 뷰포트 규칙 #18 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-018)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_018",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_019_rwd_desk_019",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-019",
+    "title": "데스크톱 뷰포트 규칙 #19",
+    "description": "데스크톱 뷰포트 규칙 #19 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-019)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_019",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_020_rwd_cross_020",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-020",
+    "title": "반응형 공통 규칙 #20",
+    "description": "반응형 공통 규칙 #20 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-020)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_020",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_021_rwd_mob_021",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-021",
+    "title": "모바일 뷰포트 규칙 #21",
+    "description": "모바일 뷰포트 규칙 #21 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-021)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_021",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_022_rwd_tab_022",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-022",
+    "title": "태블릿 뷰포트 규칙 #22",
+    "description": "태블릿 뷰포트 규칙 #22 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-022)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_022",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_023_rwd_desk_023",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-023",
+    "title": "데스크톱 뷰포트 규칙 #23",
+    "description": "데스크톱 뷰포트 규칙 #23 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-023)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_023",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_024_rwd_cross_024",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-024",
+    "title": "반응형 공통 규칙 #24",
+    "description": "반응형 공통 규칙 #24 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-024)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_024",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_025_rwd_mob_025",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-025",
+    "title": "모바일 뷰포트 규칙 #25",
+    "description": "모바일 뷰포트 규칙 #25 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-025)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_025",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_026_rwd_tab_026",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-026",
+    "title": "태블릿 뷰포트 규칙 #26",
+    "description": "태블릿 뷰포트 규칙 #26 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-026)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_026",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_027_rwd_desk_027",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-027",
+    "title": "데스크톱 뷰포트 규칙 #27",
+    "description": "데스크톱 뷰포트 규칙 #27 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-027)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_027",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_028_rwd_cross_028",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-028",
+    "title": "반응형 공통 규칙 #28",
+    "description": "반응형 공통 규칙 #28 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-028)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_028",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_029_rwd_mob_029",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-029",
+    "title": "모바일 뷰포트 규칙 #29",
+    "description": "모바일 뷰포트 규칙 #29 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-029)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_029",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_030_rwd_tab_030",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-030",
+    "title": "태블릿 뷰포트 규칙 #30",
+    "description": "태블릿 뷰포트 규칙 #30 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-030)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_030",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_031_rwd_desk_031",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-031",
+    "title": "데스크톱 뷰포트 규칙 #31",
+    "description": "데스크톱 뷰포트 규칙 #31 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-031)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_031",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_032_rwd_cross_032",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-032",
+    "title": "반응형 공통 규칙 #32",
+    "description": "반응형 공통 규칙 #32 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-032)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_032",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_033_rwd_mob_033",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-033",
+    "title": "모바일 뷰포트 규칙 #33",
+    "description": "모바일 뷰포트 규칙 #33 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-033)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_033",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_034_rwd_tab_034",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-034",
+    "title": "태블릿 뷰포트 규칙 #34",
+    "description": "태블릿 뷰포트 규칙 #34 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-034)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_034",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_035_rwd_desk_035",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-035",
+    "title": "데스크톱 뷰포트 규칙 #35",
+    "description": "데스크톱 뷰포트 규칙 #35 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-035)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_035",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_036_rwd_cross_036",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-036",
+    "title": "반응형 공통 규칙 #36",
+    "description": "반응형 공통 규칙 #36 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-036)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_036",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_037_rwd_mob_037",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-037",
+    "title": "모바일 뷰포트 규칙 #37",
+    "description": "모바일 뷰포트 규칙 #37 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-037)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_037",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_038_rwd_tab_038",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-038",
+    "title": "태블릿 뷰포트 규칙 #38",
+    "description": "태블릿 뷰포트 규칙 #38 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-038)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_038",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_039_rwd_desk_039",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-039",
+    "title": "데스크톱 뷰포트 규칙 #39",
+    "description": "데스크톱 뷰포트 규칙 #39 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-039)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_039",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_040_rwd_cross_040",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-040",
+    "title": "반응형 공통 규칙 #40",
+    "description": "반응형 공통 규칙 #40 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-040)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_040",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_041_rwd_mob_041",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-041",
+    "title": "모바일 뷰포트 규칙 #41",
+    "description": "모바일 뷰포트 규칙 #41 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-041)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_041",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_042_rwd_tab_042",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-042",
+    "title": "태블릿 뷰포트 규칙 #42",
+    "description": "태블릿 뷰포트 규칙 #42 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-042)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_042",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_043_rwd_desk_043",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-043",
+    "title": "데스크톱 뷰포트 규칙 #43",
+    "description": "데스크톱 뷰포트 규칙 #43 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-043)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_043",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_044_rwd_cross_044",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-044",
+    "title": "반응형 공통 규칙 #44",
+    "description": "반응형 공통 규칙 #44 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-044)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_044",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_045_rwd_mob_045",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-045",
+    "title": "모바일 뷰포트 규칙 #45",
+    "description": "모바일 뷰포트 규칙 #45 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-045)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_045",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_046_rwd_tab_046",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-046",
+    "title": "태블릿 뷰포트 규칙 #46",
+    "description": "태블릿 뷰포트 규칙 #46 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-046)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_046",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_047_rwd_desk_047",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-047",
+    "title": "데스크톱 뷰포트 규칙 #47",
+    "description": "데스크톱 뷰포트 규칙 #47 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-047)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_047",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_048_rwd_cross_048",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-048",
+    "title": "반응형 공통 규칙 #48",
+    "description": "반응형 공통 규칙 #48 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-048)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_048",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_049_rwd_mob_049",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-049",
+    "title": "모바일 뷰포트 규칙 #49",
+    "description": "모바일 뷰포트 규칙 #49 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-049)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_049",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_050_rwd_tab_050",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-050",
+    "title": "태블릿 뷰포트 규칙 #50",
+    "description": "태블릿 뷰포트 규칙 #50 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-050)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_050",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_051_rwd_desk_051",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-051",
+    "title": "데스크톱 뷰포트 규칙 #51",
+    "description": "데스크톱 뷰포트 규칙 #51 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-051)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_051",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_052_rwd_cross_052",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-052",
+    "title": "반응형 공통 규칙 #52",
+    "description": "반응형 공통 규칙 #52 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-052)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_052",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_053_rwd_mob_053",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-053",
+    "title": "모바일 뷰포트 규칙 #53",
+    "description": "모바일 뷰포트 규칙 #53 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-053)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_053",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_054_rwd_tab_054",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-054",
+    "title": "태블릿 뷰포트 규칙 #54",
+    "description": "태블릿 뷰포트 규칙 #54 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-054)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_054",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_055_rwd_desk_055",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-055",
+    "title": "데스크톱 뷰포트 규칙 #55",
+    "description": "데스크톱 뷰포트 규칙 #55 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-055)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_055",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_056_rwd_cross_056",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-056",
+    "title": "반응형 공통 규칙 #56",
+    "description": "반응형 공통 규칙 #56 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-056)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_056",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_057_rwd_mob_057",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-057",
+    "title": "모바일 뷰포트 규칙 #57",
+    "description": "모바일 뷰포트 규칙 #57 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-057)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_057",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_058_rwd_tab_058",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-058",
+    "title": "태블릿 뷰포트 규칙 #58",
+    "description": "태블릿 뷰포트 규칙 #58 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-058)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_058",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_059_rwd_desk_059",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-059",
+    "title": "데스크톱 뷰포트 규칙 #59",
+    "description": "데스크톱 뷰포트 규칙 #59 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-059)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_059",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_060_rwd_cross_060",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-060",
+    "title": "반응형 공통 규칙 #60",
+    "description": "반응형 공통 규칙 #60 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-060)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_060",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_061_rwd_mob_061",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-061",
+    "title": "모바일 뷰포트 규칙 #61",
+    "description": "모바일 뷰포트 규칙 #61 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-061)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_061",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_062_rwd_tab_062",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-062",
+    "title": "태블릿 뷰포트 규칙 #62",
+    "description": "태블릿 뷰포트 규칙 #62 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-062)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_062",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_063_rwd_desk_063",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-063",
+    "title": "데스크톱 뷰포트 규칙 #63",
+    "description": "데스크톱 뷰포트 규칙 #63 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-063)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_063",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_064_rwd_cross_064",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-064",
+    "title": "반응형 공통 규칙 #64",
+    "description": "반응형 공통 규칙 #64 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-064)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_064",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_065_rwd_mob_065",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-065",
+    "title": "모바일 뷰포트 규칙 #65",
+    "description": "모바일 뷰포트 규칙 #65 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-065)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_065",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_066_rwd_tab_066",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-066",
+    "title": "태블릿 뷰포트 규칙 #66",
+    "description": "태블릿 뷰포트 규칙 #66 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-066)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_066",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_067_rwd_desk_067",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-067",
+    "title": "데스크톱 뷰포트 규칙 #67",
+    "description": "데스크톱 뷰포트 규칙 #67 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-067)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_067",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_068_rwd_cross_068",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-068",
+    "title": "반응형 공통 규칙 #68",
+    "description": "반응형 공통 규칙 #68 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-068)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_068",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_069_rwd_mob_069",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-069",
+    "title": "모바일 뷰포트 규칙 #69",
+    "description": "모바일 뷰포트 규칙 #69 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-069)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_069",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_070_rwd_tab_070",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-070",
+    "title": "태블릿 뷰포트 규칙 #70",
+    "description": "태블릿 뷰포트 규칙 #70 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-070)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_070",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_071_rwd_desk_071",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-071",
+    "title": "데스크톱 뷰포트 규칙 #71",
+    "description": "데스크톱 뷰포트 규칙 #71 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-071)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_071",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_072_rwd_cross_072",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-072",
+    "title": "반응형 공통 규칙 #72",
+    "description": "반응형 공통 규칙 #72 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-072)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_072",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_073_rwd_mob_073",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-073",
+    "title": "모바일 뷰포트 규칙 #73",
+    "description": "모바일 뷰포트 규칙 #73 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-073)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_073",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_074_rwd_tab_074",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-074",
+    "title": "태블릿 뷰포트 규칙 #74",
+    "description": "태블릿 뷰포트 규칙 #74 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-074)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_074",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_075_rwd_desk_075",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-075",
+    "title": "데스크톱 뷰포트 규칙 #75",
+    "description": "데스크톱 뷰포트 규칙 #75 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-075)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_075",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_076_rwd_cross_076",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-076",
+    "title": "반응형 공통 규칙 #76",
+    "description": "반응형 공통 규칙 #76 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-076)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_076",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_077_rwd_mob_077",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-077",
+    "title": "모바일 뷰포트 규칙 #77",
+    "description": "모바일 뷰포트 규칙 #77 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-077)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_077",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_078_rwd_tab_078",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-078",
+    "title": "태블릿 뷰포트 규칙 #78",
+    "description": "태블릿 뷰포트 규칙 #78 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-078)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_078",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_079_rwd_desk_079",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-079",
+    "title": "데스크톱 뷰포트 규칙 #79",
+    "description": "데스크톱 뷰포트 규칙 #79 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-079)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_079",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_080_rwd_cross_080",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-080",
+    "title": "반응형 공통 규칙 #80",
+    "description": "반응형 공통 규칙 #80 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-080)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_080",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_081_rwd_mob_081",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-081",
+    "title": "모바일 뷰포트 규칙 #81",
+    "description": "모바일 뷰포트 규칙 #81 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-081)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_081",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_082_rwd_tab_082",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-082",
+    "title": "태블릿 뷰포트 규칙 #82",
+    "description": "태블릿 뷰포트 규칙 #82 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-082)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_082",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_083_rwd_desk_083",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-083",
+    "title": "데스크톱 뷰포트 규칙 #83",
+    "description": "데스크톱 뷰포트 규칙 #83 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-083)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_083",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_084_rwd_cross_084",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-084",
+    "title": "반응형 공통 규칙 #84",
+    "description": "반응형 공통 규칙 #84 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-084)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_084",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_085_rwd_mob_085",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-085",
+    "title": "모바일 뷰포트 규칙 #85",
+    "description": "모바일 뷰포트 규칙 #85 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-085)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_085",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_086_rwd_tab_086",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-086",
+    "title": "태블릿 뷰포트 규칙 #86",
+    "description": "태블릿 뷰포트 규칙 #86 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-086)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_086",
+    "viewport": "tablet"
+  },
+  {
+    "id": "kq_r_087_rwd_desk_087",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "데스크톱",
+    "code": "R-087",
+    "title": "데스크톱 뷰포트 규칙 #87",
+    "description": "데스크톱 뷰포트 규칙 #87 — 반응형 품질/데스크톱 기준 준수 여부를 확인합니다. (R-087)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "desktop",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_desk_087",
+    "viewport": "desktop"
+  },
+  {
+    "id": "kq_r_088_rwd_cross_088",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "공통",
+    "code": "R-088",
+    "title": "반응형 공통 규칙 #88",
+    "description": "반응형 공통 규칙 #88 — 반응형 품질/공통 기준 준수 여부를 확인합니다. (R-088)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "cross",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_cross_088",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_r_089_rwd_mob_089",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "모바일",
+    "code": "R-089",
+    "title": "모바일 뷰포트 규칙 #89",
+    "description": "모바일 뷰포트 규칙 #89 — 반응형 품질/모바일 기준 준수 여부를 확인합니다. (R-089)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "mobile",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_mob_089",
+    "viewport": "mobile"
+  },
+  {
+    "id": "kq_r_090_rwd_tab_090",
+    "domain": "kq_r",
+    "axisCode": "R",
+    "category": "반응형 품질",
+    "subcategory": "태블릿",
+    "code": "R-090",
+    "title": "태블릿 뷰포트 규칙 #90",
+    "description": "태블릿 뷰포트 규칙 #90 — 반응형 품질/태블릿 기준 준수 여부를 확인합니다. (R-090)",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "responsive",
+      "tablet",
+      "klic-ext",
+      "kq_r"
+    ],
+    "scenes": [
+      "SC-ALL",
+      "SC-HOME",
+      "SC-FIND",
+      "SC-APPLY"
+    ],
+    "source": "klic-ext",
+    "sourceRef": "responsive_rwd_tab_090",
+    "viewport": "tablet"
+  }
+]

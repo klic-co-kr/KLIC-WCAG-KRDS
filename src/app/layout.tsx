@@ -1,0 +1,40 @@
+import type { Metadata } from "next";
+import "./globals.css";
+import { BRAND } from "@/lib/brand";
+
+export const metadata: Metadata = {
+  title: `${BRAND.frameworkFull} | ${BRAND.productName}`,
+  description: BRAND.description,
+  icons: {
+    icon: "/brand/klic-krds-mark.svg",
+  },
+  metadataBase: new URL(BRAND.productUrl),
+  openGraph: {
+    title: `${BRAND.frameworkFull} · ${BRAND.productName}`,
+    description: BRAND.description,
+    url: BRAND.productUrl,
+    siteName: BRAND.frameworkFull,
+    locale: "ko_KR",
+    type: "website",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="ko" className="h-full antialiased">
+      <head>
+        <link
+          rel="stylesheet"
+          as="style"
+          crossOrigin="anonymous"
+          href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-gov.min.css"
+        />
+      </head>
+      <body className="min-h-full flex flex-col font-sans">{children}</body>
+    </html>
+  );
+}

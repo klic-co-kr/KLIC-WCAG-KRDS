@@ -1,0 +1,1535 @@
+[
+  {
+    "id": "kq_d_prin_사용자_중심",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 원칙",
+    "subcategory": "사용자 중심",
+    "code": "D-PR-01",
+    "title": "원칙 반영: 사용자 중심",
+    "description": "사용자의 필요와 상황을 우선 고려하여 설계",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "principle",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "사용자 중심",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_prin_포용성",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 원칙",
+    "subcategory": "포용성",
+    "code": "D-PR-02",
+    "title": "원칙 반영: 포용성",
+    "description": "모든 사용자가 접근 가능한 서비스 설계",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "principle",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "포용성",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_prin_간결성",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 원칙",
+    "subcategory": "간결성",
+    "code": "D-PR-03",
+    "title": "원칙 반영: 간결성",
+    "description": "복잡함을 제거하고 핵심에 집중",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "principle",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "간결성",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_prin_일관성",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 원칙",
+    "subcategory": "일관성",
+    "code": "D-PR-04",
+    "title": "원칙 반영: 일관성",
+    "description": "서비스 전반에 일관된 경험 제공",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "principle",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "일관성",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_prin_신뢰성",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 원칙",
+    "subcategory": "신뢰성",
+    "code": "D-PR-05",
+    "title": "원칙 반영: 신뢰성",
+    "description": "정확하고 안정적인 서비스 제공",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "principle",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "신뢰성",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_prin_맥락_고려",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 원칙",
+    "subcategory": "맥락 고려",
+    "code": "D-PR-06",
+    "title": "원칙 반영: 맥락 고려",
+    "description": "사용 환경과 상황을 고려한 설계",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "principle",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "맥락 고려",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_prin_쉬움",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 원칙",
+    "subcategory": "쉬움",
+    "code": "D-PR-07",
+    "title": "원칙 반영: 쉬움",
+    "description": "누구나 쉽게 사용할 수 있는 서비스",
+    "severityDefault": "serious",
+    "priorityDefault": "P1",
+    "tags": [
+      "principle",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "쉬움",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_government_blue",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Government Blue",
+    "code": "D-CO-01",
+    "title": "색 팔레트: Government Blue",
+    "description": "KRDS 색「Government Blue」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gov-blue",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_korean_red",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Korean Red",
+    "code": "D-CO-02",
+    "title": "색 팔레트: Korean Red",
+    "description": "KRDS 색「Korean Red」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "korean-red",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_success",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Success",
+    "code": "D-CO-03",
+    "title": "색 팔레트: Success",
+    "description": "KRDS 색「Success」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "success",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_warning",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Warning",
+    "code": "D-CO-04",
+    "title": "색 팔레트: Warning",
+    "description": "KRDS 색「Warning」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "warning",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_error",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Error",
+    "code": "D-CO-05",
+    "title": "색 팔레트: Error",
+    "description": "KRDS 색「Error」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "error",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_info",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Info",
+    "code": "D-CO-06",
+    "title": "색 팔레트: Info",
+    "description": "KRDS 색「Info」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "info",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_black",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Black",
+    "code": "D-CO-07",
+    "title": "색 팔레트: Black",
+    "description": "KRDS 색「Black」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "black",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_900",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 900",
+    "code": "D-CO-08",
+    "title": "색 팔레트: Gray 900",
+    "description": "KRDS 색「Gray 900」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-900",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_800",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 800",
+    "code": "D-CO-09",
+    "title": "색 팔레트: Gray 800",
+    "description": "KRDS 색「Gray 800」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-800",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_700",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 700",
+    "code": "D-CO-10",
+    "title": "색 팔레트: Gray 700",
+    "description": "KRDS 색「Gray 700」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-700",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_600",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 600",
+    "code": "D-CO-11",
+    "title": "색 팔레트: Gray 600",
+    "description": "KRDS 색「Gray 600」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-600",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_500",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 500",
+    "code": "D-CO-12",
+    "title": "색 팔레트: Gray 500",
+    "description": "KRDS 색「Gray 500」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-500",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_400",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 400",
+    "code": "D-CO-13",
+    "title": "색 팔레트: Gray 400",
+    "description": "KRDS 색「Gray 400」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-400",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_300",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 300",
+    "code": "D-CO-14",
+    "title": "색 팔레트: Gray 300",
+    "description": "KRDS 색「Gray 300」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-300",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_200",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 200",
+    "code": "D-CO-15",
+    "title": "색 팔레트: Gray 200",
+    "description": "KRDS 색「Gray 200」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-200",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_gray_100",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Gray 100",
+    "code": "D-CO-16",
+    "title": "색 팔레트: Gray 100",
+    "description": "KRDS 색「Gray 100」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gray-100",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_white",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "White",
+    "code": "D-CO-17",
+    "title": "색 팔레트: White",
+    "description": "KRDS 색「White」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "white",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_electric_blue",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Electric Blue",
+    "code": "D-CO-18",
+    "title": "색 팔레트: Electric Blue",
+    "description": "KRDS 색「Electric Blue」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "electric-blue",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_vibrant_green",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Vibrant Green",
+    "code": "D-CO-19",
+    "title": "색 팔레트: Vibrant Green",
+    "description": "KRDS 색「Vibrant Green」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "vibrant-green",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_chart_blue",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Chart Blue",
+    "code": "D-CO-20",
+    "title": "색 팔레트: Chart Blue",
+    "description": "KRDS 색「Chart Blue」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "chart-blue",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_chart_green",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Chart Green",
+    "code": "D-CO-21",
+    "title": "색 팔레트: Chart Green",
+    "description": "KRDS 색「Chart Green」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "chart-green",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_chart_orange",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Chart Orange",
+    "code": "D-CO-22",
+    "title": "색 팔레트: Chart Orange",
+    "description": "KRDS 색「Chart Orange」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "chart-orange",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_chart_red",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Chart Red",
+    "code": "D-CO-23",
+    "title": "색 팔레트: Chart Red",
+    "description": "KRDS 색「Chart Red」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "chart-red",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_color_chart_purple",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "색상",
+    "subcategory": "Chart Purple",
+    "code": "D-CO-24",
+    "title": "색 팔레트: Chart Purple",
+    "description": "KRDS 색「Chart Purple」이 용도(primary/system/neutral 등)에 맞게 쓰이는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "color",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "chart-purple",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_display_xl",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Display XL",
+    "code": "D-TY-01",
+    "title": "타이포: Display XL",
+    "description": "KRDS 타이포「Display XL」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "display-xl",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_display_large",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Display Large",
+    "code": "D-TY-02",
+    "title": "타이포: Display Large",
+    "description": "KRDS 타이포「Display Large」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "display-lg",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_display_medium",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Display Medium",
+    "code": "D-TY-03",
+    "title": "타이포: Display Medium",
+    "description": "KRDS 타이포「Display Medium」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "display-md",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_heading_1",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Heading 1",
+    "code": "D-TY-04",
+    "title": "타이포: Heading 1",
+    "description": "KRDS 타이포「Heading 1」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "heading-1",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_heading_2",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Heading 2",
+    "code": "D-TY-05",
+    "title": "타이포: Heading 2",
+    "description": "KRDS 타이포「Heading 2」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "heading-2",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_heading_3",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Heading 3",
+    "code": "D-TY-06",
+    "title": "타이포: Heading 3",
+    "description": "KRDS 타이포「Heading 3」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "heading-3",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_heading_4",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Heading 4",
+    "code": "D-TY-07",
+    "title": "타이포: Heading 4",
+    "description": "KRDS 타이포「Heading 4」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "heading-4",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_heading_5",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Heading 5",
+    "code": "D-TY-08",
+    "title": "타이포: Heading 5",
+    "description": "KRDS 타이포「Heading 5」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "heading-5",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_body_xl",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Body XL",
+    "code": "D-TY-09",
+    "title": "타이포: Body XL",
+    "description": "KRDS 타이포「Body XL」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "body-xl",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_body_large",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Body Large",
+    "code": "D-TY-10",
+    "title": "타이포: Body Large",
+    "description": "KRDS 타이포「Body Large」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "body-lg",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_body_regular",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Body Regular",
+    "code": "D-TY-11",
+    "title": "타이포: Body Regular",
+    "description": "KRDS 타이포「Body Regular」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "body-base",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_body_small",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Body Small",
+    "code": "D-TY-12",
+    "title": "타이포: Body Small",
+    "description": "KRDS 타이포「Body Small」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "body-sm",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_caption",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Caption",
+    "code": "D-TY-13",
+    "title": "타이포: Caption",
+    "description": "KRDS 타이포「Caption」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "caption",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_label_large",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Label Large",
+    "code": "D-TY-14",
+    "title": "타이포: Label Large",
+    "description": "KRDS 타이포「Label Large」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "label-lg",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_label_medium",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Label Medium",
+    "code": "D-TY-15",
+    "title": "타이포: Label Medium",
+    "description": "KRDS 타이포「Label Medium」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "label-md",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_label_small",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Label Small",
+    "code": "D-TY-16",
+    "title": "타이포: Label Small",
+    "description": "KRDS 타이포「Label Small」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "label-sm",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_button_large",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Button Large",
+    "code": "D-TY-17",
+    "title": "타이포: Button Large",
+    "description": "KRDS 타이포「Button Large」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "button-lg",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_button_medium",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Button Medium",
+    "code": "D-TY-18",
+    "title": "타이포: Button Medium",
+    "description": "KRDS 타이포「Button Medium」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "button-md",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_button_small",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Button Small",
+    "code": "D-TY-19",
+    "title": "타이포: Button Small",
+    "description": "KRDS 타이포「Button Small」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "button-sm",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_type_code",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "타이포그래피",
+    "subcategory": "Code",
+    "code": "D-TY-20",
+    "title": "타이포: Code",
+    "description": "KRDS 타이포「Code」스케일(크기·행간·굵기)이 역할에 맞게 적용되는지 확인합니다.",
+    "severityDefault": "moderate",
+    "priorityDefault": "P2",
+    "tags": [
+      "typography",
+      "krds-mcp",
+      "kq-d"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "code",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_designtokens",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "designTokens",
+    "code": "D-TK-01",
+    "title": "토큰 군: designTokens",
+    "description": "KRDS-MCP 토큰 군「designTokens」350개(예: color.krds-light-color-primary-background-default, color.krds-light-color-primary-background-hover, color.krds-light-color-primary-background-pressed)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "designTokens"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "designTokens",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_colortokens",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "colorTokens",
+    "code": "D-TK-02",
+    "title": "토큰 군: colorTokens",
+    "description": "KRDS-MCP 토큰 군「colorTokens」126개(예: krds-light-color-primary-background-default, krds-light-color-primary-background-hover, krds-light-color-primary-background-pressed)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "colorTokens"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "colorTokens",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_componenttokens",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "componentTokens",
+    "code": "D-TK-03",
+    "title": "토큰 군: componentTokens",
+    "description": "KRDS-MCP 토큰 군「componentTokens」34개(예: krds-component-button-height-sm, krds-component-button-height-md, krds-component-button-height-lg)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "componentTokens"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "componentTokens",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_layouttokens",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "layoutTokens",
+    "code": "D-TK-04",
+    "title": "토큰 군: layoutTokens",
+    "description": "KRDS-MCP 토큰 군「layoutTokens」29개(예: krds-layout-container-xs, krds-layout-container-sm, krds-layout-container-md)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "layoutTokens"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "layoutTokens",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_motiontokens",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "motionTokens",
+    "code": "D-TK-05",
+    "title": "토큰 군: motionTokens",
+    "description": "KRDS-MCP 토큰 군「motionTokens」16개(예: krds-motion-duration-instant, krds-motion-duration-fast, krds-motion-duration-normal)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "motionTokens"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "motionTokens",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_bordertokens",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "borderTokens",
+    "code": "D-TK-06",
+    "title": "토큰 군: borderTokens",
+    "description": "KRDS-MCP 토큰 군「borderTokens」19개(예: krds-border-radius-none, krds-border-radius-xs, krds-border-radius-sm)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "borderTokens"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "borderTokens",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_borderradius",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "borderRadius",
+    "code": "D-TK-07",
+    "title": "토큰 군: borderRadius",
+    "description": "KRDS-MCP 토큰 군「borderRadius」6개(예: none, sm, md)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "borderRadius"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "borderRadius",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_breakpoints",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "breakpoints",
+    "code": "D-TK-08",
+    "title": "토큰 군: breakpoints",
+    "description": "KRDS-MCP 토큰 군「breakpoints」4개(예: mobile, tablet, desktop)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "breakpoints"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "breakpoints",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_fontscale",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "fontScale",
+    "code": "D-TK-09",
+    "title": "토큰 군: fontScale",
+    "description": "KRDS-MCP 토큰 군「fontScale」13개(예: xs, sm, base)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "fontScale"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "fontScale",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_fontweights",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "fontWeights",
+    "code": "D-TK-10",
+    "title": "토큰 군: fontWeights",
+    "description": "KRDS-MCP 토큰 군「fontWeights」7개(예: light, normal, medium)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "fontWeights"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "fontWeights",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_lineheights",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "lineHeights",
+    "code": "D-TK-11",
+    "title": "토큰 군: lineHeights",
+    "description": "KRDS-MCP 토큰 군「lineHeights」8개(예: none, tight, snug)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "lineHeights"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "lineHeights",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_letterspacings",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "letterSpacings",
+    "code": "D-TK-12",
+    "title": "토큰 군: letterSpacings",
+    "description": "KRDS-MCP 토큰 군「letterSpacings」6개(예: tighter, tight, normal)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "letterSpacings"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "letterSpacings",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_gridsystem_container",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "gridSystem/container",
+    "code": "D-TK-13",
+    "title": "토큰 군: gridSystem/container",
+    "description": "KRDS-MCP 토큰 군「gridSystem/container」2개(예: maxWidth, padding)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "gridSystem"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gridSystem/container",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_gridsystem",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "gridSystem",
+    "code": "D-TK-14",
+    "title": "토큰 군: gridSystem",
+    "description": "KRDS-MCP 토큰 군「gridSystem」12개(예: columns, gutters.xs, gutters.sm)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "gridSystem"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gridSystem",
+    "viewport": "all"
+  },
+  {
+    "id": "kq_d_tok_gridsystem_utilities",
+    "domain": "kq_d",
+    "axisCode": "D",
+    "category": "디자인 토큰",
+    "subcategory": "gridSystem/utilities",
+    "code": "D-TK-15",
+    "title": "토큰 군: gridSystem/utilities",
+    "description": "KRDS-MCP 토큰 군「gridSystem/utilities」5개(예: display, flexDirection, justifyContent)가 CSS/테마 변수로 일관 매핑되는지 확인합니다.",
+    "severityDefault": "minor",
+    "priorityDefault": "P3",
+    "tags": [
+      "design-token",
+      "krds-mcp",
+      "kq-d",
+      "gridSystem"
+    ],
+    "scenes": [
+      "SC-ALL"
+    ],
+    "source": "krds-mcp",
+    "sourceRef": "gridSystem/utilities",
+    "viewport": "all"
+  }
+]
